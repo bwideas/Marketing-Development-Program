@@ -1,9 +1,9 @@
 # Webinars
 
 ## Webinar 1
-- **Title:** HVAC Applications
+- **Title:** Optimized Chilled Water Systems: Smart Pumping Strategies for Energy-Efficient and Reliable Commercial Building Performance
 - **Audience:** Mechanical Engineers, HVAC Engineers, MEP Engineers, Project Managers, Consultants, Contractors
-- **Status:** Ready
+- **Status:** Title to be confirmed
 
 ## Upcoming webinar slots
 - Webinar 2
