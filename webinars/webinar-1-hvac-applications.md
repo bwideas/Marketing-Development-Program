@@ -14,8 +14,16 @@
 - **Passcode:** Cm6xB2qJ
 
 ## Speakers
-- **Niren Rohanlal** — Regional Product & Solution Manager – IMEA, Grundfos
-- **Tariq Dewali** — Sales Development Engineer, Grundfos
+
+### Tariq Dewali
+**Title:** Sales Development Engineer, Grundfos
+
+**Bio:** Tariq Dewali is a certified pumping and HVAC systems professional with expertise in the design, optimization, and reliability of hydronic and chilled water systems. In his current role at Grundfos, Tariq works closely with consultants, contractors, and facility teams across Saudi Arabia, helping customers design and operate efficient, reliable, and high-performing HVAC and chiller systems. Driven by a passion for engineering precision, Tariq is committed to helping commercial buildings across the region achieve smarter and more energy-efficient cooling performance.
+
+### Niren Rohanlal
+**Title:** Senior Regional Product & Solution Manager – CBS Advanced Core & Systems, IMEA, Grundfos
+
+**Bio:** Niren Rohanlal is a seasoned pumping and water solutions professional with over a decade of experience across the IMEA region. As Senior Regional Product & Solution Manager – CBS Advanced Core & Systems, IMEA at Grundfos, Niren works closely with key stakeholders to help customers optimize system performance, reduce operational costs, and achieve their sustainability goals through smart and energy-efficient pumping solutions.
 
 ---
 
