@@ -1,533 +1,1670 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bandar Aldawood — Marketing Portfolio | Grundfos Saudi Arabia CBS Initiative</title>
-<style>
-  :root {
-    --blue: #0a4a8f;
-    --blue-dark: #08355f;
-    --blue-light: #e8f1fa;
-    --accent: #00a5d1;
-    --gold: #c9a24b;
-    --ink: #1d2733;
-    --muted: #5b6b7c;
-    --bg: #f7f9fc;
-    --card: #ffffff;
-    --radius: 14px;
-    --shadow: 0 4px 20px rgba(10, 74, 143, 0.08);
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.6; }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CBS Journey at Grundfos</title>
+  <link rel="preload" as="image" href="assets/gallery/riyadh-night.webp" />
+  <link rel="preload" as="image" href="assets/gallery/riyadh-night.jpg" />
+  <style>
+    :root {
+      --bg: #061a2d;
+      --bg-deep: #031220;
+      --panel: rgba(9, 30, 50, 0.84);
+      --panel-strong: rgba(11, 35, 58, 0.96);
+      --panel-soft: rgba(14, 43, 69, 0.72);
+      --line: rgba(116, 205, 255, 0.18);
+      --line-strong: rgba(116, 205, 255, 0.32);
+      --blue: #0f5db3;
+      --blue-strong: #0a3f7d;
+      --blue-light: #4ec7ff;
+      --cyan: #68e6ff;
+      --teal: #77f1d1;
+      --gold: #f2c866;
+      --text: #edf9ff;
+      --muted: #a9c5dc;
+      --shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+      --radius: 20px;
+    }
 
-  /* Nav */
-  nav {
-    position: sticky; top: 0; z-index: 100;
-    background: rgba(255,255,255,0.95); backdrop-filter: blur(8px);
-    border-bottom: 1px solid #e3e9f0;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0.8rem 6vw;
-  }
-  nav .brand { font-weight: 700; color: var(--blue); letter-spacing: 0.5px; }
-  nav .brand span { color: var(--accent); }
-  nav ul { display: flex; gap: 1.4rem; list-style: none; }
-  nav a { text-decoration: none; color: var(--muted); font-size: 0.9rem; font-weight: 600; }
-  nav a:hover { color: var(--blue); }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(71, 167, 255, 0.15), transparent 28%),
+        radial-gradient(circle at right center, rgba(35, 168, 255, 0.12), transparent 35%),
+        linear-gradient(180deg, var(--bg) 0%, #081d30 100%);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
 
-  /* Hero */
-  header {
-    background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 55%, #0d6db8 100%);
-    color: #fff; padding: 5.5rem 6vw 4.5rem;
-    position: relative; overflow: hidden;
-  }
-  header::after {
-    content: ""; position: absolute; right: -120px; top: -120px;
-    width: 420px; height: 420px; border-radius: 50%;
-    background: radial-gradient(circle, rgba(0,165,209,0.35), transparent 70%);
-  }
-  .eyebrow {
-    display: inline-block; background: rgba(255,255,255,0.14);
-    border: 1px solid rgba(255,255,255,0.3);
-    padding: 0.3rem 0.9rem; border-radius: 999px;
-    font-size: 0.78rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 1.2rem;
-  }
-  header h1 { font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.15; max-width: 780px; }
-  header h1 em { font-style: normal; color: #8fd8ef; }
-  header p.lede { margin-top: 1.2rem; max-width: 640px; font-size: 1.05rem; color: #d7e6f5; }
-  .hero-tags { margin-top: 1.8rem; display: flex; flex-wrap: wrap; gap: 0.6rem; }
-  .hero-tags span {
-    background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25);
-    padding: 0.35rem 0.85rem; border-radius: 999px; font-size: 0.82rem;
-  }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+      background-size: 26px 26px;
+      mask-image: radial-gradient(circle at center, black 35%, transparent 100%);
+      opacity: 0.7;
+    }
 
-  /* Layout */
-  main { max-width: 1100px; margin: 0 auto; padding: 0 6vw; }
-  section { padding: 3.5rem 0 1rem; }
-  h2 { color: var(--blue-dark); font-size: 1.6rem; margin-bottom: 0.4rem; }
-  .subtitle { color: var(--muted); margin-bottom: 1.8rem; max-width: 700px; }
-  .rule { width: 56px; height: 4px; background: var(--accent); border-radius: 2px; margin: 0.6rem 0 1.4rem; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
 
-  .grid { display: grid; gap: 1.2rem; }
-  .grid.cols-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-  .grid.cols-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .container {
+      width: min(1200px, calc(100% - 32px));
+      margin: 0 auto;
+    }
 
-  .card {
-    background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
-    padding: 1.5rem; border-top: 4px solid var(--accent);
-  }
-  .card h3 { color: var(--blue); font-size: 1.05rem; margin-bottom: 0.5rem; }
-  .card h3 img.tool-logo { width: 22px; height: 22px; object-fit: contain; vertical-align: -4px; margin-right: 8px; border-radius: 4px; }
-  .card p, .card li { font-size: 0.92rem; color: var(--muted); }
-  .card ul { padding-left: 1.1rem; margin-top: 0.5rem; }
-  .card li { margin-bottom: 0.35rem; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      backdrop-filter: blur(12px);
+      background: rgba(5, 23, 38, 0.72);
+      border-bottom: 1px solid var(--line);
+    }
 
-  /* Metrics */
-  .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
-  .metric {
-    background: linear-gradient(160deg, var(--blue) 0%, var(--blue-dark) 100%);
-    color: #fff; border-radius: var(--radius); padding: 1.4rem 1.2rem; text-align: center;
-  }
-  .metric .num { font-size: 1.9rem; font-weight: 800; color: #8fd8ef; }
-  .metric .label { font-size: 0.8rem; letter-spacing: 0.5px; text-transform: uppercase; color: #c9def2; margin-top: 0.3rem; }
-  .placeholder-note {
-    margin-top: 0.9rem; font-size: 0.8rem; color: var(--muted); font-style: italic;
-  }
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      min-height: 72px;
+    }
 
-  /* Audience chips */
-  .chips { display: flex; flex-wrap: wrap; gap: 0.7rem; }
-  .chip {
-    background: var(--blue-light); color: var(--blue-dark);
-    padding: 0.55rem 1.1rem; border-radius: 999px; font-size: 0.88rem; font-weight: 600;
-    border: 1px solid #cfe0f2;
-  }
+    .brand {
+      font-weight: 800;
+      font-size: 1.05rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
 
-  /* Table */
-  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
-  th { background: var(--blue); color: #fff; text-align: left; padding: 0.85rem 1rem; font-size: 0.85rem; letter-spacing: 0.5px; }
-  td { padding: 0.85rem 1rem; font-size: 0.9rem; color: var(--muted); border-bottom: 1px solid #eef2f7; }
-  tr:last-child td { border-bottom: none; }
-  td strong { color: var(--ink); }
+    .brand span {
+      color: var(--cyan);
+    }
 
-  /* Timeline */
-  .timeline { position: relative; margin-left: 12px; padding-left: 2rem; border-left: 3px solid #cfe0f2; }
-  .phase { position: relative; margin-bottom: 2rem; }
-  .phase::before {
-    content: ""; position: absolute; left: calc(-2rem - 10.5px); top: 6px;
-    width: 18px; height: 18px; border-radius: 50%;
-    background: var(--accent); border: 4px solid #fff; box-shadow: 0 0 0 3px var(--accent);
-  }
-  .phase h3 { color: var(--blue-dark); }
-  .phase .when { font-size: 0.8rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; }
-  .phase ul { padding-left: 1.1rem; color: var(--muted); font-size: 0.92rem; margin-top: 0.4rem; }
+    nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
-  /* UTM box */
-  .code-box {
-    background: var(--blue-dark); color: #cfe6f7; border-radius: var(--radius);
-    padding: 1.3rem 1.5rem; font-family: Consolas, monospace; font-size: 0.87rem;
-    overflow-x: auto;
-  }
-  .code-box .k { color: #8fd8ef; }
+    nav a {
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      transition: color 0.2s ease;
+      white-space: nowrap;
+    }
 
-  /* Success factors */
-  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.8rem; }
-  .fact {
-    background: var(--card); border-radius: 10px; box-shadow: var(--shadow);
-    padding: 0.9rem 1.1rem; font-size: 0.92rem; font-weight: 600; color: var(--ink);
-    display: flex; align-items: center; gap: 0.6rem;
-  }
-  .fact::before { content: "✓"; color: var(--accent); font-weight: 800; font-size: 1.1rem; }
+    nav a:hover {
+      color: var(--cyan);
+    }
 
-  /* Footer */
-  footer {
-    margin-top: 4rem; background: var(--blue-dark); color: #c9def2;
-    padding: 2.5rem 6vw; text-align: center; font-size: 0.9rem;
-  }
-  footer strong { color: #fff; }
-  footer .roles { margin-top: 0.8rem; font-size: 0.82rem; color: #9db8d4; }
+    .nav-button,
+    .primary-button,
+    .secondary-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 0.82rem 1.3rem;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.04em;
+      border: 1px solid var(--line-strong);
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
 
-  @media print {
-    nav { display: none; }
-    body { background: #fff; }
-    header { padding: 2.5rem 6vw 2rem; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-    section { padding: 1.5rem 0 0.5rem; page-break-inside: avoid; }
-    .card, .metric, table, .fact { box-shadow: none; page-break-inside: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-    .metrics, .grid { page-break-inside: avoid; }
-    footer { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  }
-</style>
+    .nav-button,
+    .primary-button {
+      background: linear-gradient(135deg, var(--cyan), var(--blue-light));
+      color: #06243e;
+      box-shadow: 0 10px 22px rgba(98, 196, 255, 0.24);
+    }
+
+    .secondary-button {
+      background: rgba(255,255,255,0.03);
+      color: var(--text);
+    }
+
+    .nav-button:hover,
+    .primary-button:hover,
+    .secondary-button:hover {
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.28);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 26px;
+      align-items: center;
+      padding: 72px 0 50px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.45rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(104, 230, 255, 0.09);
+      border: 1px solid var(--line-strong);
+      color: var(--cyan);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 1.15rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 5vw, 4.3rem);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      max-width: 680px;
+    }
+
+    .lead {
+      max-width: 620px;
+      margin: 1.3rem 0 0;
+      color: var(--muted);
+      font-size: 1.06rem;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 1.8rem;
+    }
+
+    .status-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 1.7rem;
+    }
+
+    .status-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0.56rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.74rem;
+      font-weight: 700;
+    }
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--teal);
+      box-shadow: 0 0 18px rgba(119, 241, 209, 0.8);
+    }
+
+    .hero-panel {
+      position: relative;
+      padding: 22px;
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(15, 36, 60, 0.76), rgba(9, 31, 51, 0.92)),
+        image-set(url('assets/gallery/riyadh-night.webp') type('image/webp'), url('assets/gallery/riyadh-night.jpg')) center/cover no-repeat;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top right, rgba(104, 230, 255, 0.18), transparent 35%);
+      pointer-events: none;
+    }
+
+    .panel-head {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .signal {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .signal::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--teal);
+      box-shadow: 0 0 14px rgba(119, 241, 209, 0.8);
+    }
+
+    .mini-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .tiny-stat {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px 12px;
+      min-height: 108px;
+    }
+
+    .tiny-label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.66rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .tiny-stat .value {
+      font-size: clamp(1.8rem, 2vw, 2.2rem);
+      font-weight: 800;
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .tiny-stat .sub {
+      color: var(--cyan);
+      font-size: 0.72rem;
+      font-weight: 700;
+      margin-top: 8px;
+      display: inline-block;
+    }
+
+    .chart-block {
+      margin-top: 18px;
+      padding: 14px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chart-bar {
+      position: relative;
+      width: 100%;
+      height: 90px;
+      display: flex;
+      align-items: flex-end;
+      gap: 7px;
+      padding-top: 14px;
+    }
+
+    .chart-bar span {
+      display: block;
+      width: 100%;
+      border-radius: 999px 999px 0 0;
+      background: linear-gradient(180deg, var(--cyan), #1a7ee6);
+      opacity: 0.95;
+      height: var(--h, 35%);
+      box-shadow: 0 0 16px rgba(104, 230, 255, 0.27);
+    }
+
+    .panel-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .panel-footer strong {
+      color: var(--text);
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+    }
+
+    .stats-band {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(150px, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+      margin-bottom: 8px;
+    }
+
+    .stat-box {
+      position: relative;
+      padding: 1.2rem 1rem 1.1rem;
+      border-radius: 16px;
+      background: linear-gradient(180deg, rgba(13, 41, 67, 0.9), rgba(9, 26, 42, 0.96));
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .stat-box::after {
+      content: "";
+      position: absolute;
+      right: -12px;
+      top: -12px;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(104, 230, 255, 0.14), transparent 70%);
+      pointer-events: none;
+    }
+
+    .stat-number {
+      position: relative;
+      display: block;
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+      font-weight: 800;
+      color: var(--cyan);
+      line-height: 1;
+    }
+
+    .stat-label {
+      position: relative;
+      display: block;
+      margin-top: 0.54rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .section {
+      padding: 52px 0 8px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: var(--cyan);
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(2rem, 3vw, 2.5rem);
+      line-height: 1.06;
+      letter-spacing: -0.04em;
+    }
+
+    .contact-card,
+    .project-card,
+    .skill-card,
+    .partner-card,
+    .achievement-box,
+    .gallery-item,
+    .timeline-item,
+    .map-detail,
+    .mini-report {
+      background: linear-gradient(180deg, rgba(12, 32, 52, 0.92), rgba(9, 23, 38, 0.95));
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .contact-card {
+      padding: 24px 26px;
+      max-width: 660px;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+      font-size: 1rem;
+    }
+
+    .contact-row:last-child {
+      border-bottom: 0;
+    }
+
+    .contact-row span {
+      color: var(--muted);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+    }
+
+    .contact-row strong,
+    .contact-row a {
+      font-size: 1.06rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .project-card {
+      padding: 20px 18px 18px;
+      min-height: 248px;
+    }
+
+    .project-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .project-card .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.36rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid var(--line-strong);
+      background: rgba(104, 230, 255, 0.08);
+      color: var(--cyan);
+      font-size: 0.6rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .project-top span {
+      color: var(--muted);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .project-card h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
+
+    .project-card p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .project-card ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--text);
+      display: grid;
+      gap: 8px;
+      font-size: 0.82rem;
+      line-height: 1.5;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap: 18px;
+    }
+
+    .gallery-item {
+      position: relative;
+      min-height: 240px;
+      overflow: hidden;
+      padding: 18px;
+      display: flex;
+      align-items: flex-end;
+      background:
+        linear-gradient(180deg, rgba(6, 27, 45, 0.22), rgba(6, 17, 30, 0.78)),
+        var(--art, linear-gradient(135deg, #1e6bc0, #0b3a69));
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .gallery-item::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(0,0,0,0.2));
+    }
+
+    .gallery-tag {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      display: inline-flex;
+      padding: 0.38rem 0.58rem;
+      background: rgba(10, 35, 58, 0.64);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 999px;
+      font-size: 0.62rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+
+    .gallery-copy {
+      position: relative;
+      z-index: 1;
+    }
+
+    .gallery-copy h3 {
+      margin: 0 0 6px;
+      line-height: 1.2;
+      font-size: 1.2rem;
+    }
+
+    .gallery-copy p {
+      margin: 0;
+      color: rgba(237, 249, 255, 0.8);
+      font-size: 0.82rem;
+    }
+
+    .skill-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 18px;
+    }
+
+    .skill-card {
+      padding: 18px 18px 16px;
+    }
+
+    .skill-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 10px;
+      font-weight: 800;
+    }
+
+    .skill-head span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .skill-head span::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 3px;
+      background: linear-gradient(135deg, var(--cyan), #7bb6ff);
+      box-shadow: 0 0 12px rgba(104, 230, 255, 0.4);
+      display: inline-block;
+    }
+
+    .skill-head strong {
+      color: var(--cyan);
+      font-size: 0.84rem;
+      letter-spacing: 0.08em;
+    }
+
+    .skill-meter {
+      position: relative;
+      height: 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      overflow: hidden;
+    }
+
+    .skill-meter span {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: var(--value, 0%);
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--cyan), #3f8fe4 55%, #7c9ef6 100%);
+      box-shadow: 0 0 20px rgba(104, 230, 255, 0.28);
+    }
+
+    .mini-report-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .mini-report {
+      padding: 18px 16px;
+      min-height: 138px;
+    }
+
+    .mini-report strong {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .mini-report .big {
+      display: block;
+      font-size: clamp(1.7rem, 2vw, 2.2rem);
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .mini-report span {
+      color: var(--cyan);
+      font-weight: 700;
+      font-size: 0.74rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .partners-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap: 18px;
+    }
+
+    .partner-card {
+      padding: 18px 18px 16px;
+      min-height: 176px;
+    }
+
+    .partner-card .icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: rgba(104, 230, 255, 0.08);
+      border: 1px solid var(--line-strong);
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+    }
+
+    .partner-card h3 {
+      margin: 0 0 8px;
+      font-size: 1.1rem;
+    }
+
+    .partner-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    .achievement-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0,1fr));
+      gap: 18px;
+    }
+
+    .achievement-box {
+      padding: 18px 16px;
+      text-align: center;
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .achievement-box .count {
+      display: block;
+      font-size: clamp(1.8rem, 2.4vw, 2.5rem);
+      font-weight: 800;
+      color: var(--cyan);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .achievement-box span {
+      color: var(--muted);
+      font-size: 0.72rem;
+      line-height: 1.5;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 18px;
+      padding-top: 8px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 22px;
+      top: 8px;
+      bottom: 8px;
+      width: 2px;
+      background: linear-gradient(180deg, rgba(104,230,255,0.25), rgba(104,230,255,0.6), rgba(104,230,255,0.25));
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-left: 46px;
+      padding: 18px 20px 16px 20px;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -34px;
+      top: 22px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--cyan);
+      border: 4px solid rgba(7, 26, 45, 1);
+      box-shadow: 0 0 18px rgba(104, 230, 255, 0.5);
+    }
+
+    .timeline-date {
+      display: inline-flex;
+      padding: 0.44rem 0.6rem;
+      border-radius: 999px;
+      background: rgba(104, 230, 255, 0.08);
+      border: 1px solid var(--line-strong);
+      color: var(--cyan);
+      font-size: 0.6rem;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .timeline-item h3 {
+      margin: 0 0 8px;
+      font-size: 1.2rem;
+    }
+
+    .timeline-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .map-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .map-shell {
+      position: relative;
+      min-height: 360px;
+      padding: 18px;
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(12, 34, 57, 0.96), rgba(8, 23, 39, 0.98));
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .map-shell::before {
+      content: "";
+      position: absolute;
+      inset: 12px;
+      border-radius: 16px;
+      border: 1px solid rgba(116, 205, 255, 0.08);
+      pointer-events: none;
+    }
+
+    .map-shell svg {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 320px;
+    }
+
+    .map-base {
+      fill: rgba(25, 64, 93, 0.68);
+      stroke: rgba(104, 230, 255, 0.34);
+      stroke-width: 2;
+    }
+
+    .map-marker {
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .map-marker circle:first-child {
+      fill: var(--cyan);
+      stroke: white;
+      stroke-width: 2;
+    }
+
+    .map-marker circle:last-child {
+      fill: rgba(104, 230, 255, 0.12);
+      stroke: rgba(104, 230, 255, 0.55);
+      stroke-width: 1;
+      transform-origin: center;
+      animation: pulse 2.2s ease-in-out infinite;
+    }
+
+    .map-marker.is-active circle:first-child {
+      fill: var(--gold);
+    }
+
+    .map-marker:hover {
+      transform: translateY(-2px);
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(0.7); opacity: 0.9; }
+      70% { transform: scale(1.35); opacity: 0.2; }
+      100% { transform: scale(1.5); opacity: 0; }
+    }
+
+    .map-detail {
+      padding: 22px 20px;
+    }
+
+    .map-detail .tag {
+      display: inline-flex;
+      padding: 0.42rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(104, 230, 255, 0.08);
+      border: 1px solid var(--line-strong);
+      color: var(--cyan);
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .map-detail h3 {
+      margin: 0 0 10px;
+      font-size: 1.3rem;
+    }
+
+    .map-detail p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .map-detail ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--text);
+      display: grid;
+      gap: 8px;
+      font-size: 0.82rem;
+    }
+
+    .social-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .social-bar a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-width: 140px;
+      padding: 0.8rem 1rem;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .site-footer {
+      margin-top: 52px;
+      padding: 32px 0 56px;
+      border-top: 1px solid var(--line);
+      background: rgba(5, 18, 30, 0.72);
+    }
+
+    .footer-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+
+    .footer-card strong {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+    }
+
+    .footer-card a {
+      color: var(--cyan);
+    }
+
+    @media (max-width: 980px) {
+      .hero,
+      .map-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .card-grid,
+      .gallery-grid,
+      .partners-grid,
+      .achievement-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .stats-band {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 760px) {
+      .topbar-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 14px 0;
+      }
+
+      nav ul {
+        justify-content: center;
+      }
+
+      .card-grid,
+      .gallery-grid,
+      .partners-grid,
+      .achievement-grid,
+      .mini-report-grid,
+      .skill-grid,
+      .stats-band {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 48px;
+      }
+
+      .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .contact-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
 </head>
 <body>
-
-<nav>
-  <div class="brand">BANDAR<span> · CBS</span></div>
-  <ul>
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#objectives">Objectives</a></li>
-    <li><a href="#results">Results</a></li>
-    <li><a href="#tools">Tools</a></li>
-    <li><a href="#channels">Channels</a></li>
-    <li><a href="#upcoming">Upcoming</a></li>
-  </ul>
-</nav>
-
-<header>
-  <div class="eyebrow">Marketing Portfolio · Grundfos Saudi Arabia</div>
-  <h1>Marketing Development Roadmap <em>Commercial Building Services Initiative</em></h1>
-  <p class="lede">
-    A strategic market-expansion program positioning Grundfos as the preferred partner for
-    commercial building solutions across Saudi Arabia — through digital innovation, strategic
-    partnerships, and customer-centric HVAC, water management, and pumping solutions.
-  </p>
-  <p style="margin-top:1.4rem; font-size:1rem; color:#d7e6f5;">
-    <strong style="color:#fff; font-size:1.15rem;">Bandar Aldawood</strong> · Marketing Specialist — Grundfos Saudi Arabia (Commercial Building Services)<br>
-    <a href="mailto:b.aldaood@hotmail.com" style="color:#8fd8ef; text-decoration:none;">b.aldaood@hotmail.com</a>
-  </p>
-  <p style="margin-top:1rem; max-width:640px; font-size:0.95rem; color:#d7e6f5; border-left:3px solid #8fd8ef; padding-left:0.9rem;">
-    I am responsible for the <strong style="color:#fff;">planning and execution</strong> of every
-    campaign, event, and program showcased in this portfolio — from strategy and audience
-    targeting to launch, delivery, and reporting.
-  </p>
-  <div class="hero-tags">
-    <span>🇸🇦 Saudi Arabia</span>
-    <span>🇪🇬 Egypt</span>
-    <span>Commercial Buildings Sector</span>
-    <span>B2B Marketing</span>
-    <span>Digital Campaigns</span>
-    <span>Partnership Ecosystem</span>
-  </div>
-</header>
-
-<main>
-
-<section id="overview">
-  <h2>Executive Summary</h2>
-  <div class="rule"></div>
-  <p class="subtitle">
-    The Bandar initiative leverages digital innovation, strategic partnerships, and
-    customer-centric solutions to establish Grundfos market leadership in HVAC, water
-    management, and pumping systems for commercial infrastructure in Saudi Arabia.
-  </p>
-  <h3 style="color:var(--blue); margin:1.2rem 0 0.6rem;">Decision Makers</h3>
-  <div class="chips">
-    <div class="chip">Facility Managers</div>
-    <div class="chip">Procurement Directors</div>
-    <div class="chip">Asset Managers</div>
-  </div>
-
-  <h3 style="color:var(--blue); margin:1.2rem 0 0.6rem;">Design &amp; Specification Influencers</h3>
-  <div class="chips">
-    <div class="chip">Consulting Engineers</div>
-    <div class="chip">Mechanical Engineers</div>
-    <div class="chip">Project Engineers</div>
-    <div class="chip">Energy Consultants</div>
-  </div>
-
-  <h3 style="color:var(--blue); margin:1.2rem 0 0.6rem;">Construction Ecosystem</h3>
-  <div class="chips">
-    <div class="chip">Contractors &amp; Construction Companies</div>
-    <div class="chip">MEP Contractors</div>
-    <div class="chip">Project Managers</div>
-    <div class="chip">Site Engineers</div>
-  </div>
-
-  <h3 style="color:var(--blue); margin:1.2rem 0 0.6rem;">Building Owners &amp; Developers</h3>
-  <div class="chips">
-    <div class="chip">Property Developers</div>
-    <div class="chip">Commercial Property Managers</div>
-    <div class="chip">Hospitality &amp; Healthcare Operators</div>
-    <div class="chip">Mixed-Use Development Owners</div>
-  </div>
-
-  <h3 style="color:var(--blue); margin:1.2rem 0 0.6rem;">End-User Segments</h3>
-  <div class="chips">
-    <div class="chip">Hotels</div>
-    <div class="chip">Hospitals</div>
-    <div class="chip">Universities</div>
-    <div class="chip">Airports</div>
-    <div class="chip">Shopping Malls</div>
-    <div class="chip">Data Centers</div>
-    <div class="chip">Office Towers</div>
-    <div class="chip">Government Buildings</div>
-    <div class="chip">Residential Compounds</div>
-  </div>
-
-  <h3 style="color:var(--blue); margin:1.2rem 0 0.6rem;">Sales Enablement &amp; Growth</h3>
-  <div class="chips">
-    <div class="chip">Channel Partners</div>
-    <div class="chip">Distributors</div>
-    <div class="chip">Dealers</div>
-    <div class="chip">Key Account Managers</div>
-    <div class="chip">Business Development Managers</div>
-  </div>
-  <p class="placeholder-note">Target audience segments for all campaign activity.</p>
-</section>
-
-<section id="objectives">
-  <h2>Strategic Objectives</h2>
-  <div class="rule"></div>
-  <div class="grid cols-2">
-    <div class="card">
-      <h3>📍 Market Penetration &amp; Brand Presence</h3>
-      <p>Establish Grundfos as the preferred partner for commercial building solutions across Saudi Arabia.</p>
-      <ul>
-        <li>Localized campaigns reflecting Saudi business culture</li>
-        <li>Strategic partnerships with major contractors and consulting engineers</li>
-        <li>Positioning in energy-efficient, sustainable building solutions</li>
-      </ul>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">Grundfos <span>Command Center</span></div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">🏠 Home</a></li>
+          <li><a href="#about">👨‍💻 About Me</a></li>
+          <li><a href="#projects">📈 Marketing Projects</a></li>
+          <li><a href="#events">🎤 Webinars &amp; Events</a></li>
+          <li><a href="#analytics">📊 Analytics &amp; Reporting</a></li>
+          <li><a href="#partnerships">🤝 Partnerships</a></li>
+          <li><a href="#achievements">🏆 Achievements</a></li>
+          <li><a href="#timeline">📅 Timeline</a></li>
+        </ul>
+      </nav>
+      <a class="nav-button" href="Bandar-Aldawood-CV.pdf" download>Download CV</a>
     </div>
-    <div class="card">
-      <h3>💻 Digital Innovation &amp; Customer Engagement</h3>
-      <p>Seamless digital experiences that educate, engage, and convert decision makers.</p>
-      <ul>
-        <li>Integrated campaigns across LinkedIn and industry platforms</li>
-        <li>Technical content showcasing efficiency and cost savings</li>
-        <li>Targeted advertising to facility managers and procurement professionals</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>🤝 Stakeholder Relationship Building</h3>
-      <p>Long-term partnerships with key decision makers, contractors, and engineering firms.</p>
-      <ul>
-        <li>Industry forums, technical seminars, and product demonstrations</li>
-        <li>Direct channels to C-suite and technical decision makers</li>
-        <li>Customized solutions for specific customer challenges</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>🌱 Sustainable Growth Through Cooperation</h3>
-      <p>A collaborative ecosystem supporting mutual growth and business success.</p>
-      <ul>
-        <li>Distributor and contractor partner programs</li>
-        <li>Incentive structures aligned with customer value</li>
-        <li>Comprehensive training and technical support</li>
-      </ul>
-    </div>
-  </div>
-</section>
+  </header>
 
-<section id="results">
-  <h2>Results &amp; Impact</h2>
-  <div class="rule"></div>
-  <p class="subtitle">Real campaign performance across the IMEA CBS program (Nov 2025 – 2026).</p>
-  <div class="metrics">
-    <div class="metric"><div class="num">1,500+</div><div class="label">New Leads (2026)</div></div>
-    <div class="metric"><div class="num">26.6K</div><div class="label">Emails Sent</div></div>
-    <div class="metric"><div class="num">96.6%</div><div class="label">Deliverability</div></div>
-    <div class="metric"><div class="num">23%</div><div class="label">Avg Open Rate</div></div>
-    <div class="metric"><div class="num">13</div><div class="label">Events Delivered</div></div>
-    <div class="metric"><div class="num">1,548</div><div class="label">Event Attendees</div></div>
-    <div class="metric"><div class="num">4</div><div class="label">Webinars · 200+ Each</div></div>
-    <div class="metric"><div class="num">25.4K</div><div class="label">Social Reach</div></div>
-    <div class="metric"><div class="num">951</div><div class="label">Social Engagements</div></div>
-    <div class="metric"><div class="num">48</div><div class="label">Always ON Communication Assets</div></div>
-  </div>
-  <p class="placeholder-note">Sources: Marketo (IMEA CBS GSA + GEG newsletters), Sprinklr campaign scorecard, STOVA event registrations, AOC emailer schedule.</p>
+  <main class="container">
+    <section id="home" class="hero">
+      <div>
+        <div class="eyebrow">My CBS Journey at Grundfos</div>
+        <h1>Turning campaigns, events, and insights into measurable growth.</h1>
+        <p class="lead">
+          I build and energize the Commercial Building Services marketing engine across NAS — blending strategy,
+          digital engagement, partner activation, and reporting into one connected customer journey.
+        </p>
+        <div class="cta-row">
+          <a class="primary-button" href="#projects">Explore impact</a>
+          <a class="secondary-button" href="Bandar-Aldawood-CV.pdf" target="_blank" rel="noreferrer">View CV</a>
+        </div>
+        <div class="status-row">
+          <div class="status-chip"><span class="dot"></span> CBS strategy active</div>
+          <div class="status-chip"><span class="dot"></span> Regional campaigns live</div>
+          <div class="status-chip"><span class="dot"></span> Lead generation in motion</div>
+        </div>
+      </div>
 
-  <h2 style="margin-top:2.5rem;">Signature Events</h2>
-  <div class="rule"></div>
-  <p class="subtitle">Including 4 seminars organized with VIP partners.</p>
-  <table>
-    <tr><th>Event</th><th>Location</th><th>Date</th><th>Attendees</th></tr>
-    <tr><td><strong>Ramadan Gatherings</strong> (4 cities)</td><td>Riyadh · Jeddah · Dammam · Cairo</td><td>Mar 2026</td><td>859</td></tr>
-    <tr><td><strong>HVAC Day: Elevating HVAC Efficiency</strong></td><td>Riyadh</td><td>Feb 2026</td><td>255</td></tr>
-    <tr><td><strong>Energy Optimization Day</strong></td><td>Cairo</td><td>Nov 2025</td><td>119</td></tr>
-    <tr><td><strong>Mini Engineering Day 2025</strong></td><td>Jeddah</td><td>Nov 2025</td><td>114</td></tr>
-    <tr><td><strong>Let's Energize Growth</strong></td><td>Sharm El-Sheikh</td><td>Dec 2025</td><td>98</td></tr>
-    <tr><td><strong>Engineers Days, Trainings &amp; Technical Sessions</strong></td><td>Riyadh</td><td>2026</td><td>103</td></tr>
-    <tr><td><strong>VIP Partner Seminars</strong> (4 seminars)</td><td>Saudi Arabia</td><td>2026</td><td>200+</td></tr>
-    <tr><td><strong>Webinar Campaign Series</strong> (4 webinars)</td><td>Virtual</td><td>2026</td><td>TBD</td></tr>
-  </table>
+      <aside class="hero-panel" aria-label="Campaign dashboard">
+        <div class="panel-head"><span class="signal">Live ops</span></div>
+        <div class="mini-grid">
+          <div class="tiny-stat">
+            <span class="tiny-label">Events</span>
+            <div class="value" data-target="13" data-suffix="+">0</div>
+            <span class="sub">Delivered</span>
+          </div>
+          <div class="tiny-stat">
+            <span class="tiny-label">Webinars</span>
+            <div class="value" data-target="4" data-suffix="+">0</div>
+            <span class="sub">CPD series</span>
+          </div>
+          <div class="tiny-stat">
+            <span class="tiny-label">Leads</span>
+            <div class="value" data-target="1500" data-suffix="+">0</div>
+            <span class="sub">Generated</span>
+          </div>
+          <div class="tiny-stat">
+            <span class="tiny-label">Campaigns</span>
+            <div class="value" data-target="30" data-suffix="+">0</div>
+            <span class="sub">Executed</span>
+          </div>
+        </div>
 
-  <h2 style="margin-top:2.5rem;">CPD-Certified Webinar Series</h2>
-  <div class="rule"></div>
-  <p class="subtitle">
-    <strong>My role:</strong> leading the email and social media campaigns to reach professionals
-    interested in these topics and drive them to register and attend our CPD-certified webinars —
-    delivering 200+ registrations per session.
-  </p>
-  <table>
-    <tr><th>#</th><th>Webinar</th><th>Status</th></tr>
-    <tr><td>1</td><td><strong>Optimized Chilled Water Systems</strong></td><td>✅ Done</td></tr>
-    <tr><td>2</td><td><strong>Optimizing HVAC Pumping Systems</strong></td><td>🔄 In Progress</td></tr>
-    <tr><td>3</td><td><strong>Efficient Wastewater Pumping</strong></td><td>🔄 In Progress</td></tr>
-    <tr><td>4</td><td><strong>Grundfos Modular Systems</strong></td><td>🔄 In Progress</td></tr>
-  </table>
+        <div class="chart-block" aria-label="Quarter performance chart">
+          <div class="chart-bar">
+            <span style="--h: 38%;"></span>
+            <span style="--h: 63%;"></span>
+            <span style="--h: 70%;"></span>
+            <span style="--h: 82%;"></span>
+            <span style="--h: 92%;"></span>
+            <span style="--h: 75%;"></span>
+            <span style="--h: 96%;"></span>
+          </div>
+        </div>
 
-  <h2 style="margin-top:2.5rem;">Social Campaign Scorecard</h2>
-  <div class="rule"></div>
-  <table>
-    <tr><th>Campaign</th><th>Posts</th><th>Engagements</th><th>Likes &amp; Reactions</th><th>Shares</th><th>Reach</th></tr>
-    <tr><td><strong>CBS – General</strong></td><td>55</td><td>700</td><td>663</td><td>22</td><td>18.56K</td></tr>
-    <tr><td><strong>CBS – HVAC</strong></td><td>15</td><td>145</td><td>133</td><td>11</td><td>3.34K</td></tr>
-    <tr><td><strong>CBS – Country Specific Content</strong></td><td>7</td><td>106</td><td>106</td><td>0</td><td>3.51K</td></tr>
-    <tr><td><strong>Total</strong></td><td><strong>77</strong></td><td><strong>951</strong></td><td><strong>902</strong></td><td><strong>33</strong></td><td><strong>~25.4K</strong></td></tr>
-  </table>
-  <p class="placeholder-note">Source: Sprinklr campaign overview dashboard — lifetime performance, all CBS campaigns.</p>
-</section>
+        <div class="panel-footer">
+          <span>NAS Coverage</span>
+          <strong>11 cities</strong>
+        </div>
+      </aside>
+    </section>
 
-<section id="tools">
-  <h2>Tools &amp; Platforms</h2>
-  <div class="rule"></div>
-  <p class="subtitle">The marketing technology stack powering campaign execution, events, analytics, and project delivery.</p>
-  <div class="grid cols-3">
-    <div class="card">
-      <h3><img class="tool-logo" src="assets/marketo.png" alt="Marketo logo">Marketo</h3>
-      <p><strong>Marketing Automation</strong></p>
-      <ul>
-        <li>31 newsletter and marketing emails sends across GSA &amp; GEG audiences</li>
-        <li>26.6K emails delivered at 96.6% deliverability, ~23% open rate</li>
-        <li>48-asset AOC emailer program managed end-to-end (22 completed)</li>
-      </ul>
+    <section class="stats-band" aria-label="Overall performance stats">
+      <div class="stat-box">
+        <span class="stat-number" data-target="13" data-suffix="+">0</span>
+        <span class="stat-label">Events delivered</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number" data-target="4" data-suffix="+">0</span>
+        <span class="stat-label">CPD webinars</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number" data-target="1500" data-suffix="+">0</span>
+        <span class="stat-label">New leads</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number" data-target="30" data-suffix="+">0</span>
+        <span class="stat-label">Campaigns executed</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number" data-target="100" data-suffix="+">0</span>
+        <span class="stat-label">Training hours</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-header">
+        <span class="kicker">👨‍💻 About Me</span>
+        <h2>Profile</h2>
+      </div>
+      <div class="contact-card" aria-label="About me card">
+        <div class="contact-row">
+          <span>Name</span>
+          <strong>Bandar Aldawood</strong>
+        </div>
+        <div class="contact-row">
+          <span>Email</span>
+          <a href="mailto:b.aldaood@hotmail.com">b.aldaood@hotmail.com</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <span class="kicker">📈 Marketing Projects</span>
+        <h2>Campaigns that moved the market</h2>
+      </div>
+
+      <div class="card-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <span class="badge">Launch</span>
+            <span>Saudi</span>
+          </div>
+          <h3>CBS Launch Sprint</h3>
+          <p>Built the market-entry narrative and campaign engine for Grundfos Commercial Building Services in the KSA market.</p>
+          <ul>
+            <li>Audience mapping</li>
+            <li>Message testing</li>
+            <li>Cross-channel rollout</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="badge">Digital</span>
+            <span>Regional</span>
+          </div>
+          <h3>Webinar Growth Program</h3>
+          <p>Coordinated 4 CPD-certified webinar series with 200+ registrations per session across email, social, and stakeholder outreach.</p>
+          <ul>
+            <li>CTA optimization</li>
+            <li>Leader follow-ups</li>
+            <li>Conversion tracking</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="badge">Events</span>
+            <span>MEA</span>
+          </div>
+          <h3>Partner Event Activation</h3>
+          <p>Supported successful regional activations for trade, consulting, and engineering audiences with content and registration flow.</p>
+          <ul>
+            <li>On-site storytelling</li>
+            <li>Lead capture</li>
+            <li>Stakeholder coordination</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="badge">Reporting</span>
+            <span>Insights</span>
+          </div>
+          <h3>Performance Command Center</h3>
+          <p>Turned campaign activity into a practical dashboard for managers, helping prioritize spend and improve conversion quality.</p>
+          <ul>
+            <li>Weekly KPI reviews</li>
+            <li>Channel comparison</li>
+            <li>Optimization loops</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <div class="section-header">
+        <span class="kicker">🎤 Webinars &amp; Events</span>
+        <h2>Event gallery</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <article class="gallery-item" style="--art: image-set(url('assets/gallery/server-room.webp') type('image/webp'), url('assets/gallery/server-room.jpg'));" loading="lazy">
+          <span class="gallery-tag">Webinar</span>
+          <div class="gallery-copy">
+            <h3>HVAC Efficiency Series</h3>
+            <p>Technical content driving registrations and qualified engagement.</p>
+          </div>
+        </article>
+
+        <article class="gallery-item" style="--art: image-set(url('assets/gallery/riyadh-night.webp') type('image/webp'), url('assets/gallery/riyadh-night.jpg'));" loading="lazy">
+          <span class="gallery-tag">Roundtable</span>
+          <div class="gallery-copy">
+            <h3>Partner Meeting</h3>
+            <p>Strategic collaboration with consultants, contractors, and specifiers.</p>
+          </div>
+        </article>
+
+        <article class="gallery-item" style="--art: image-set(url('assets/gallery/roof-hvac.webp') type('image/webp'), url('assets/gallery/roof-hvac.jpg'));" loading="lazy">
+          <span class="gallery-tag">Seminar</span>
+          <div class="gallery-copy">
+            <h3>Engineering Day</h3>
+            <p>Hands-on customer education and solution positioning.</p>
+          </div>
+        </article>
+
+        <article class="gallery-item" style="--art: image-set(url('assets/gallery/facility-roof.webp') type('image/webp'), url('assets/gallery/facility-roof.jpg'));" loading="lazy">
+          <span class="gallery-tag">Regional</span>
+          <div class="gallery-copy">
+            <h3>NAS Forum</h3>
+            <p>Broader audience reach and partner amplification across markets.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="analytics" class="section">
+      <div class="section-header">
+        <span class="kicker">📊 Analytics &amp; Reporting</span>
+        <h2>Tools and performance intelligence</h2>
+      </div>
+
+      <div class="skill-grid">
+        <div class="skill-card">
+          <div class="skill-head"><span>Marketo</span><strong>90%</strong></div>
+          <div class="skill-meter" style="--value:90%;"><span></span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head"><span>Power BI</span><strong>80%</strong></div>
+          <div class="skill-meter" style="--value:80%;"><span></span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head"><span>Excel &amp; PowerPoint</span><strong>95%</strong></div>
+          <div class="skill-meter" style="--value:95%;"><span></span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head"><span>STOVA</span><strong>80%</strong></div>
+          <div class="skill-meter" style="--value:80%;"><span></span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head"><span>Sprinklr</span><strong>85%</strong></div>
+          <div class="skill-meter" style="--value:85%;"><span></span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head"><span>Teams Events</span><strong>85%</strong></div>
+          <div class="skill-meter" style="--value:85%;"><span></span></div>
+        </div>
+      </div>
+
+      <div class="mini-report-grid">
+        <div class="mini-report">
+          <strong>Campaign reach</strong>
+          <span class="big" data-target="42" data-suffix="K+">0</span>
+          <span>Audience reach</span>
+        </div>
+        <div class="mini-report">
+          <strong>Engagement</strong>
+          <span class="big" data-target="951" data-suffix="">0</span>
+          <span>Interactions</span>
+        </div>
+        <div class="mini-report">
+          <strong>Open rate</strong>
+          <span class="big" data-target="23" data-suffix="%">0</span>
+          <span>Avg. email</span>
+        </div>
+        <div class="mini-report">
+          <strong>Deliverability</strong>
+          <span class="big" data-target="96" data-suffix=".6%">0</span>
+          <span>Campaign health</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="partnerships" class="section">
+      <div class="section-header">
+        <span class="kicker">🤝 Partnerships</span>
+        <h2>Built on ecosystem strength</h2>
+      </div>
+
+      <div class="partners-grid">
+        <article class="partner-card">
+          <div class="icon">🏗️</div>
+          <h3>Contractors</h3>
+          <p>Activation with commercial building and mechanical project stakeholders for product visibility and specification support.</p>
+        </article>
+
+        <article class="partner-card">
+          <div class="icon">📐</div>
+          <h3>Consultants</h3>
+          <p>Technical and commercial positioning to help engineering firms evaluate solution fit with building performance goals.</p>
+        </article>
+
+        <article class="partner-card">
+          <div class="icon">🤝</div>
+          <h3>Channel partners</h3>
+          <p>Extended reach through aligned messaging, training, and event support across priority market segments.</p>
+        </article>
+
+        <article class="partner-card">
+          <div class="icon">🌍</div>
+          <h3>Regional networks</h3>
+          <p>Cross-market coordination connecting campaigns, events, and reporting across NAS business priorities.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="section-header">
+        <span class="kicker">🏆 Achievements</span>
+        <h2>Impact milestones</h2>
+      </div>
+
+      <div class="achievement-grid">
+        <div class="achievement-box">
+          <span class="count" data-target="13" data-suffix="+">0</span>
+          <span>Events delivered</span>
+        </div>
+        <div class="achievement-box">
+          <span class="count" data-target="4" data-suffix="+">0</span>
+          <span>CPD webinars</span>
+        </div>
+        <div class="achievement-box">
+          <span class="count" data-target="1500" data-suffix="+">0</span>
+          <span>New leads</span>
+        </div>
+        <div class="achievement-box">
+          <span class="count" data-target="30" data-suffix="+">0</span>
+          <span>Campaigns executed</span>
+        </div>
+        <div class="achievement-box">
+          <span class="count" data-target="100" data-suffix="+">0</span>
+          <span>Training hours</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline" class="section">
+      <div class="section-header">
+        <span class="kicker">📅 Timeline</span>
+        <h2>CBS specialist period</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">Nov 2025</div>
+          <h3>Market launch and positioning</h3>
+          <p>Launched the CBS marketing story across KSA and regional channels, aligning stakeholder narratives and campaign structure.</p>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Dec 2025</div>
+          <h3>Event and webinar activation</h3>
+          <p>Built the rhythm for digital and in-person engagement, bringing campaigns, webinars, and partner touchpoints into one plan.</p>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Jan 2026</div>
+          <h3>Lead generation acceleration</h3>
+          <p>Expanded email and social outreach around demand generation and solution education to strengthen funnel quality.</p>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Mar 2026</div>
+          <h3>Optimization and reporting</h3>
+          <p>Used analytics to refine audience targeting, content themes, and event follow-through based on performance insights.</p>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Q3–Q4 2026</div>
+          <h3>Regional scale and capability building</h3>
+          <p>Focused on partnerships, regional campaigns, and training moments that scaled impact across more commercial building opportunities.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="map-section" class="section">
+      <div class="section-header">
+        <span class="kicker">📍 NAS Projects</span>
+        <h2>Interactive project map</h2>
+      </div>
+
+      <div class="map-layout">
+        <div class="map-shell">
+          <svg viewBox="0 0 760 420" role="img" aria-label="NAS project map">
+            <path class="map-base" d="M96 126L174 92L257 88L332 104L381 146L457 165L536 212L569 273L535 325L430 342L364 335L289 348L216 326L151 280L96 220L86 172L96 126Z"></path>
+            <g class="map-marker is-active" data-region="riyadh" tabindex="0" role="button" aria-label="Riyadh project">
+              <circle cx="468" cy="210" r="11"></circle>
+              <circle cx="468" cy="210" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="dammam" tabindex="0" role="button" aria-label="Dammam project">
+              <circle cx="518" cy="188" r="11"></circle>
+              <circle cx="518" cy="188" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="jeddah" tabindex="0" role="button" aria-label="Jeddah project">
+              <circle cx="430" cy="252" r="11"></circle>
+              <circle cx="430" cy="252" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="makkah" tabindex="0" role="button" aria-label="Makkah project">
+              <circle cx="448" cy="270" r="11"></circle>
+              <circle cx="448" cy="270" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="alqassim" tabindex="0" role="button" aria-label="Alqassim project">
+              <circle cx="406" cy="178" r="11"></circle>
+              <circle cx="406" cy="178" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="alula" tabindex="0" role="button" aria-label="Al-Ula project">
+              <circle cx="360" cy="132" r="11"></circle>
+              <circle cx="360" cy="132" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="tabuk" tabindex="0" role="button" aria-label="Tabuk project">
+              <circle cx="300" cy="110" r="11"></circle>
+              <circle cx="300" cy="110" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="neom" tabindex="0" role="button" aria-label="Neom project">
+              <circle cx="252" cy="92" r="11"></circle>
+              <circle cx="252" cy="92" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="cairo" tabindex="0" role="button" aria-label="Cairo project">
+              <circle cx="282" cy="244" r="11"></circle>
+              <circle cx="282" cy="244" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="sharm" tabindex="0" role="button" aria-label="Sharm El-Sheikh project">
+              <circle cx="310" cy="292" r="11"></circle>
+              <circle cx="310" cy="292" r="20"></circle>
+            </g>
+            <g class="map-marker" data-region="alexandria" tabindex="0" role="button" aria-label="Alexandria project">
+              <circle cx="216" cy="260" r="11"></circle>
+              <circle cx="216" cy="260" r="20"></circle>
+            </g>
+          </svg>
+        </div>
+
+        <aside class="map-detail" aria-live="polite">
+          <div id="map-tag" class="tag">Saudi Arabia</div>
+          <h3 id="map-title">Riyadh — CBS Launch Sprint</h3>
+          <p id="map-description">Built the core launch narrative for commercial building solutions and connected campaign execution with sales enablement.</p>
+          <ul id="map-list">
+            <li>Demand generation</li>
+            <li>Regional messaging</li>
+            <li>Lead handoff support</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <span class="kicker">🔗 Connect</span>
+        <h2>Profiles and portfolio</h2>
+      </div>
+
+      <div class="social-bar">
+        <a href="https://github.com/bwideas" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="Bandar-Aldawood-CV.pdf" download>Download CV</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-card">
+      <div>
+        <strong>Bandar Aldawood</strong>
+        <a href="mailto:b.aldaood@hotmail.com">b.aldaood@hotmail.com</a>
+      </div>
+      <div class="social-bar" style="margin-top:0;">
+        <a href="https://github.com/bwideas" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
     </div>
-    <div class="card">
-      <h3><img class="tool-logo" src="assets/sprinklr.png" alt="Sprinklr logo">Sprinklr</h3>
-      <p><strong>Social Media Management</strong></p>
-      <ul>
-        <li>82 posts published across 4 CBS campaigns</li>
-        <li>951 total engagements · 25.4K post reach</li>
-        <li>Campaign scorecards: General, HVAC, country-specific &amp; reactive content</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3><img class="tool-logo" src="assets/stova.png" alt="STOVA logo">STOVA</h3>
-      <p><strong>Event Management</strong></p>
-      <ul>
-        <li>13 events delivered — Riyadh, Jeddah, Dammam, Cairo &amp; Sharm</li>
-        <li>1,548 registered attendees, incl. HVAC Day Riyadh (255) &amp; Ramadan Gatherings (859)</li>
-        <li>End-to-end registration, check-in, and lead capture</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3><img class="tool-logo" src="assets/powerbi.svg" alt="Power BI logo">Power BI</h3>
-      <p><strong>Analytics &amp; Dashboards</strong></p>
-      <ul>
-        <li>Weekly unified KPI dashboard (spend → revenue)</li>
-        <li>Campaign and channel performance visualization</li>
-        <li>Budget reallocation insights for leadership</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3><img class="tool-logo" src="assets/clickup.svg" alt="ClickUp logo">ClickUp</h3>
-      <p><strong>Project Management</strong></p>
-      <ul>
-        <li>Campaign planning, content calendar, and task tracking</li>
-        <li>Cross-team collaboration between marketing &amp; sales</li>
-        <li>Timeline and milestone management across phases</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3><img class="tool-logo" src="assets/office.svg" alt="Microsoft logo">Microsoft Office</h3>
-      <p><strong>Professional Proficiency</strong></p>
-      <ul>
-        <li><strong>Excel</strong> — campaign schedules, status trackers, and reporting</li>
-        <li><strong>PowerPoint</strong> — executive presentations and campaign reviews</li>
-        <li><strong>Word</strong> — briefs, proposals, and marketing documentation</li>
-      </ul>
-    </div>
-  </div>
-</section>
+  </footer>
 
-<section id="channels">
-  <h2>Campaign Channels &amp; Tactics</h2>
-  <div class="rule"></div>
-  <table>
-    <tr><th>Channel</th><th>Tactic</th><th>Objective</th></tr>
-    <tr><td><strong>Social Media</strong></td><td>LinkedIn thought leadership, targeted ads, case studies</td><td>Build authority, generate leads</td></tr>
-    <tr><td><strong>Digital Events</strong></td><td>Webinars, virtual product showcases, industry forums</td><td>Educate market, establish expertise</td></tr>
-    <tr><td><strong>Content Marketing</strong></td><td>Technical guides, ROI calculators, sustainability reports</td><td>Address customer pain points</td></tr>
-    <tr><td><strong>Direct Outreach</strong></td><td>Sales engagement, relationship building, customized proposals</td><td>Convert decision makers</td></tr>
-    <tr><td><strong>Partnerships</strong></td><td>Strategic alliances, co-marketing initiatives</td><td>Expand market reach</td></tr>
-  </table>
-</section>
+  <script>
+    const animateCounter = (node) => {
+      const target = Number(node.dataset.target || 0);
+      const suffix = node.dataset.suffix || '';
+      const duration = 1200;
+      let start = null;
 
-<section id="upcoming">
-  <h2>Upcoming Plans &amp; Actions — 2026</h2>
-  <div class="rule"></div>
-  <p class="subtitle">Planned marketing activities for the remainder of 2026, spanning events, webinars, customer trips, and the Always ON communication programme.</p>
+      const tick = (timestamp) => {
+        if (!start) start = timestamp;
+        const progress = Math.min((timestamp - start) / duration, 1);
+        const current = Math.round(target * progress);
+        node.textContent = current + suffix;
 
-  <div class="grid cols-2">
-    <div class="card">
-      <h3>🎪 Events &amp; Seminars — H2 2026</h3>
-      <ul>
-        <li><strong>Big5 Construct Saudi</strong> — 30 Aug–2 Sep 2026</li>
-        <li><strong>Engineering Day</strong> — 14 Oct</li>
-        <li><strong>Engineering Day Jeddah</strong> — 28 Oct</li>
-        <li><strong>Engineering Camp</strong> — 20–21 Nov (AlUla or Jeddah cruise)</li>
-        <li><strong>Aftermarket Lunch &amp; Learns</strong> — Jeddah and Riyadh</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>🎥 Webinars &amp; Digital</h3>
-      <ul>
-        <li><strong>Optimizing HVAC Pumping Systems</strong> — 30 August</li>
-        <li><strong>Efficient Wastewater Pumping</strong> — 22 October</li>
-        <li><strong>Grundfos Modular Systems</strong> — 18 November</li>
-        <li><strong>Digital Campaign — GSA</strong> with CPD certificates</li>
-        <li><strong>CBS positioning / awareness campaign</strong> across SoMe &amp; emailers</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>✈️ Customer &amp; Consultant Trips — Denmark / Hungary</h3>
-      <ul>
-        <li><strong>Mina Sidhom</strong> — 28 Sep–1 Oct</li>
-        <li><strong>Jinu John</strong> — 19–22 Oct</li>
-        <li><strong>Mohammed Al Ashmony</strong> — 2–5 Nov</li>
-        <li><strong>Mohammed Al Ashmony</strong> — 7–10 Dec</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>📧 Always ON Communication — H2 2026</h3>
-      <ul>
-        <li><strong>24 remaining emailers</strong> to complete the 48-asset annual calendar</li>
-        <li>Topics: Water Boosting, Hospitality 3D, District Cooling, Waste Water, Commercial Building, Healthcare, Circulator Pumps, HVAC &amp; more</li>
-        <li>Monthly cadence through December, KSA + Egypt audiences</li>
-      </ul>
-    </div>
-  </div>
+        if (progress < 1) {
+          requestAnimationFrame(tick);
+        } else {
+          node.textContent = target + suffix;
+        }
+      };
 
-  <div class="card" style="margin-top:1.2rem;">
-    <h3>🎯 Key Goal: Bridging the MQL Gap</h3>
-    <p>Continue increasing Marketing Qualified Leads through customer events and digital campaigns —
-    building on 16.8% YTD growth in marketing permissions (2,069 vs 1,772 in 2025) and 330+ MQLs
-    already generated from events this year.</p>
-  </div>
-</section>
+      requestAnimationFrame(tick);
+    };
 
-<section id="success">
-  <h2>Success Factors</h2>
-  <div class="rule"></div>
-  <div class="facts">
-    <div class="fact">Customer-centric solution positioning</div>
-    <div class="fact">Authentic local market engagement</div>
-    <div class="fact">Data-driven decision making</div>
-    <div class="fact">Strong partnership ecosystem</div>
-    <div class="fact">Continuous innovation and adaptation</div>
-    <div class="fact">Sustainability and value focus</div>
-  </div>
-</section>
+    document.querySelectorAll('[data-target]').forEach(animateCounter);
 
-</main>
+    const mapData = {
+      riyadh: {
+        tag: 'Saudi Arabia',
+        title: 'Riyadh — CBS Launch Sprint',
+        description: 'Built the core launch narrative for commercial building solutions and connected campaign execution with sales enablement.',
+        list: ['Demand generation', 'Regional messaging', 'Lead handoff support']
+      },
+      dammam: {
+        tag: 'Eastern Province',
+        title: 'Dammam — Industrial & Commercial Outreach',
+        description: 'Created market-facing visibility for business customers in the Eastern Province with localized campaigns and stakeholder follow-up.',
+        list: ['Industrial outreach', 'Regional targeting', 'Partner follow-up']
+      },
+      jeddah: {
+        tag: 'Western Saudi',
+        title: 'Jeddah — Coastal Commercial Reach',
+        description: 'Activated customer education and regional demand programs to support broader visibility across west-coast market segments.',
+        list: ['Coastal campaigns', 'Customer education', 'Lead generation']
+      },
+      makkah: {
+        tag: 'Makkah Region',
+        title: 'Makkah — Business Engagement Flow',
+        description: 'Strengthened stakeholder touchpoints and campaign continuity through targeted communication and event-led lead cultivation.',
+        list: ['Business engagement', 'Event promotion', 'Stakeholder trust']
+      },
+      alqassim: {
+        tag: 'Al Qassim',
+        title: 'Al Qassim — Central Market Growth',
+        description: 'Scaled localized messaging and regional campaign support to deepen relevance in the central Saudi market.',
+        list: ['Central market focus', 'Localized messaging', 'Audience growth']
+      },
+      alula: {
+        tag: 'Al-Ula',
+        title: 'Al-Ula — Heritage & Tourism Narrative',
+        description: 'Built visibility around destination and regional engagement opportunities with culturally relevant storytelling and audience activation.',
+        list: ['Heritage storytelling', 'Regional positioning', 'Customer engagement']
+      },
+      tabuk: {
+        tag: 'Tabuk',
+        title: 'Tabuk — Northern Growth Activation',
+        description: 'Extended campaign reach into northern Saudi with focused audience targeting and partner-led awareness activity.',
+        list: ['Northern market focus', 'Audience targeting', 'Awareness activation']
+      },
+      neom: {
+        tag: 'Neom',
+        title: 'Neom — Future City Frontier',
+        description: 'Supported next-generation market engagement through forward-looking campaigns and strategic stakeholder communications.',
+        list: ['Future-focused campaigns', 'Stakeholder messaging', 'Innovation positioning']
+      },
+      cairo: {
+        tag: 'Egypt',
+        title: 'Cairo — Commercial Awareness Campaign',
+        description: 'Delivered customer-centric content and event support to strengthen positioning and nurture regional conversation.',
+        list: ['Awareness push', 'Event follow-up', 'Audience growth']
+      },
+      sharm: {
+        tag: 'Sharm El-Sheikh',
+        title: 'Sharm El-Sheikh — Coastal Events Momentum',
+        description: 'Built event-driven engagement around customer interaction, awareness campaigns, and post-event conversion support.',
+        list: ['Event momentum', 'Customer interaction', 'Conversion support']
+      },
+      alexandria: {
+        tag: 'Alexandria',
+        title: 'Alexandria — Coastal Stakeholder Engagement',
+        description: 'Extended regional visibility through focused communication, partner alignment, and demand-nurture activity across the coastal market.',
+        list: ['Stakeholder alignment', 'Demand nurture', 'Regional visibility']
+      }
+    };
 
-<footer>
-  <div style="font-size:1.05rem; margin-bottom:0.6rem;"><strong>Bandar Aldawood</strong> — Marketing Specialist, Grundfos Saudi Arabia (Commercial Building Services)</div>
-  <div>
-    <a href="mailto:b.aldaood@hotmail.com" style="color:#8fd8ef; text-decoration:none;">b.aldaood@hotmail.com</a>
-  </div>
-  <div style="margin-top:1rem;">
-    <strong>Grundfos Saudi Arabia Company Ltd.</strong><br>
-    Prince Fahad Bin Ibrahim Al-Saud Street, Al Malaz<br>
-    P.O. Box 27597, Riyadh - 11427, Kingdom of Saudi Arabia<br>
-    <a href="tel:+966118293700" style="color:#8fd8ef; text-decoration:none;">+966 11 829 3700</a>
-  </div>
-  <div style="margin-top:0.8rem; display:flex; justify-content:center; gap:1.4rem; flex-wrap:wrap; align-items:center;">
-    <a href="https://www.grundfos.com/sa" target="_blank" style="color:#8fd8ef; text-decoration:none; display:inline-flex; align-items:center; gap:0.4rem;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8fd8ef" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>grundfos.com/sa</a>
-    <a href="https://www.facebook.com/GrundfosMENA/" target="_blank" style="color:#8fd8ef; text-decoration:none; display:inline-flex; align-items:center; gap:0.4rem;"><svg width="18" height="18" viewBox="0 0 24 24" fill="#8fd8ef"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>Facebook</a>
-    <a href="https://www.linkedin.com/company/5195" target="_blank" style="color:#8fd8ef; text-decoration:none; display:inline-flex; align-items:center; gap:0.4rem;"><svg width="18" height="18" viewBox="0 0 24 24" fill="#8fd8ef"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a>
-  </div>
-  <div class="roles" style="margin-top:1rem;"><strong style="color:#fff;">Executive Sponsor:</strong> Grundfos Saudi Arabia Management · Marketing Team — campaign execution &amp; digital presence · Sales Team — stakeholder engagement &amp; relationships</div>
-</footer>
+    const mapTag = document.getElementById('map-tag');
+    const mapTitle = document.getElementById('map-title');
+    const mapDescription = document.getElementById('map-description');
+    const mapList = document.getElementById('map-list');
 
+    const renderRegion = (region) => {
+      const current = mapData[region];
+      if (!current) return;
+
+      mapTag.textContent = current.tag;
+      mapTitle.textContent = current.title;
+      mapDescription.textContent = current.description;
+      mapList.innerHTML = current.list.map(item => `<li>${item}</li>`).join('');
+
+      document.querySelectorAll('.map-marker').forEach((marker) => {
+        marker.classList.toggle('is-active', marker.dataset.region === region);
+      });
+    };
+
+    document.querySelectorAll('.map-marker').forEach((marker) => {
+      const activate = () => renderRegion(marker.dataset.region);
+      marker.addEventListener('click', activate);
+      marker.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          activate();
+        }
+      });
+    });
+
+    renderRegion('riyadh');
+  </script>
 </body>
 </html>
