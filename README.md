@@ -6,6 +6,14 @@ Bandar represents Grundfos's strategic market expansion in Saudi Arabia's commer
 
 ---
 
+## Webinar Content
+
+- [Webinar Index](webinars/index.md)
+- [Webinar 3: Reliable Wastewater Systems](webinars/webinar-3-wastewater-systems.md)
+- [Webinar 3: Promotion Plan](webinars/webinar-3-promotion.md)
+
+---
+
 ## Strategic Objectives
 
 ### Market Penetration & Brand Presence
@@ -54,7 +62,7 @@ Build a collaborative ecosystem supporting mutual growth and business success.
 ## Campaign Channels & Tactics
 
 | Channel | Tactic | Objective |
-|---------|--------|-----------|
+| --- | --- | --- |
 | **Social Media** | LinkedIn thought leadership, targeted ads, case studies | Build authority, generate leads |
 | **Digital Events** | Webinars, virtual product showcases, industry forums | Educate market, establish expertise |
 | **Content Marketing** | Technical guides, ROI calculators, sustainability reports | Address customer pain points |
