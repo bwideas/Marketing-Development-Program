@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Complete this gate before campaign launch. Launch is blocked until all required fields are provided.
+        Complete this gate before campaign launch. Launch is blocked until all required fields are provided, including complete UTMs, a dashboard link, named owners, and KPI targets.
 
   - type: input
     id: campaign_name
@@ -30,8 +30,8 @@ body:
   - type: textarea
     id: landing_url_with_utms
     attributes:
-      label: Landing URL with UTM parameters
-      description: Must include utm_source, utm_medium, utm_campaign, utm_content.
+      label: Landing URL with all required UTM parameters
+      description: Required fields: utm_source, utm_medium, utm_campaign, utm_content.
       placeholder: https://www.grundfos.com/sa/commercial-buildings?utm_source=linkedin&utm_medium=paid_social&utm_campaign=p2_leadgen_facilitymanagers&utm_content=ad_a
     validations:
       required: true
@@ -39,8 +39,8 @@ body:
   - type: input
     id: dashboard_link
     attributes:
-      label: KPI dashboard link
-      description: Link to the weekly dashboard entry for this campaign.
+      label: Weekly KPI dashboard link
+      description: Provide the live dashboard entry for this campaign.
       placeholder: https://...
     validations:
       required: true
@@ -48,7 +48,7 @@ body:
   - type: input
     id: marketing_owner
     attributes:
-      label: Marketing owner
+      label: Marketing owner (required)
       placeholder: @username
     validations:
       required: true
@@ -56,7 +56,7 @@ body:
   - type: input
     id: sales_owner
     attributes:
-      label: Sales owner
+      label: Sales owner (required)
       placeholder: @username
     validations:
       required: true
@@ -64,7 +64,8 @@ body:
   - type: input
     id: target_cpl
     attributes:
-      label: Target cost per lead (CPL)
+      label: Target CPL
+      description: Set the maximum acceptable cost per lead for launch.
       placeholder: e.g., SAR 120
     validations:
       required: true
@@ -73,6 +74,7 @@ body:
     id: target_cpmql
     attributes:
       label: Target cost per MQL
+      description: Set the maximum acceptable cost per MQL for launch.
       placeholder: e.g., SAR 300
     validations:
       required: true
@@ -84,7 +86,9 @@ body:
       options:
         - label: All campaign links include the 4 required UTM fields.
           required: true
-        - label: Campaign appears in dashboard within 24 hours of setup.
+        - label: A live dashboard link is included and the campaign appears within 24 hours of setup.
           required: true
-        - label: Marketing and sales owners are assigned and agreed on weekly review cadence.
+        - label: Marketing and sales owners are named and agree to the weekly review cadence.
+          required: true
+        - label: KPI targets for CPL and cost per MQL are filled in before launch.
           required: true

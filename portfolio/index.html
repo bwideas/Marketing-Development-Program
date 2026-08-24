@@ -80,11 +80,22 @@
     }
 
     .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
       font-weight: 800;
       font-size: 1.05rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--text);
+    }
+
+    .brand-mark {
+      width: 10px;
+      height: 10px;
+      border-radius: 3px;
+      background: linear-gradient(135deg, var(--cyan), #7db9ff);
+      box-shadow: 0 0 18px rgba(104, 230, 255, 0.6);
     }
 
     .brand span {
@@ -428,8 +439,12 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      font-size: 0.72rem;
-      letter-spacing: 0.16em;
+      padding: 0.46rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(104, 230, 255, 0.08);
+      border: 1px solid var(--line-strong);
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
       font-weight: 800;
       color: var(--cyan);
@@ -440,6 +455,32 @@
       font-size: clamp(2rem, 3vw, 2.5rem);
       line-height: 1.06;
       letter-spacing: -0.04em;
+    }
+
+    .project-card,
+    .skill-card,
+    .partner-card,
+    .achievement-box,
+    .gallery-item,
+    .timeline-item,
+    .map-detail,
+    .mini-report,
+    .contact-card {
+      transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    }
+
+    .project-card:hover,
+    .skill-card:hover,
+    .partner-card:hover,
+    .achievement-box:hover,
+    .gallery-item:hover,
+    .timeline-item:hover,
+    .map-detail:hover,
+    .mini-report:hover,
+    .contact-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(104, 230, 255, 0.28);
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.24);
     }
 
     .contact-card,
@@ -567,18 +608,20 @@
       display: flex;
       align-items: flex-end;
       background:
-        linear-gradient(180deg, rgba(6, 27, 45, 0.22), rgba(6, 17, 30, 0.78)),
+        linear-gradient(180deg, rgba(6, 27, 45, 0.18), rgba(6, 17, 30, 0.82)),
         var(--art, linear-gradient(135deg, #1e6bc0, #0b3a69));
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      isolation: isolate;
     }
 
     .gallery-item::before {
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(0,0,0,0.2));
+      background: linear-gradient(180deg, rgba(64, 151, 255, 0.05), rgba(1, 12, 22, 0.4));
+      z-index: 0;
     }
 
     .gallery-tag {
@@ -1059,17 +1102,17 @@
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <div class="brand">Grundfos <span>Command Center</span></div>
+      <div class="brand"><span class="brand-mark"></span>Grundfos <span>CBS</span></div>
       <nav aria-label="Main navigation">
         <ul>
-          <li><a href="#home">🏠 Home</a></li>
-          <li><a href="#about">👨‍💻 About Me</a></li>
-          <li><a href="#projects">📈 Marketing Projects</a></li>
-          <li><a href="#events">🎤 Webinars &amp; Events</a></li>
-          <li><a href="#analytics">📊 Analytics &amp; Reporting</a></li>
+          <li><a href="#home">⌂ Home</a></li>
+          <li><a href="#about">👤 About Me</a></li>
+          <li><a href="#projects">📊 Marketing Projects</a></li>
+          <li><a href="#events">🎙️ Webinars &amp; Events</a></li>
+          <li><a href="#analytics">📈 Analytics &amp; Reporting</a></li>
           <li><a href="#partnerships">🤝 Partnerships</a></li>
-          <li><a href="#achievements">🏆 Achievements</a></li>
-          <li><a href="#timeline">📅 Timeline</a></li>
+          <li><a href="#achievements">🏅 Achievements</a></li>
+          <li><a href="#timeline">🗓️ Timeline</a></li>
         </ul>
       </nav>
       <a class="nav-button" href="Bandar-Aldawood-CV.pdf" download>Download CV</a>
@@ -1079,11 +1122,11 @@
   <main class="container">
     <section id="home" class="hero">
       <div>
-        <div class="eyebrow">My CBS Journey at Grundfos</div>
-        <h1>Turning campaigns, events, and insights into measurable growth.</h1>
+        <div class="eyebrow">My CBS journey at Grundfos</div>
+        <h1>Driving growth through campaigns, events, and market intelligence.</h1>
         <p class="lead">
-          I build and energize the Commercial Building Services marketing engine across NAS — blending strategy,
-          digital engagement, partner activation, and reporting into one connected customer journey.
+          I lead the Commercial Building Services marketing engine across NAS by aligning strategy, digital engagement,
+          partner activation, and performance reporting into one cohesive customer journey.
         </p>
         <div class="cta-row">
           <a class="primary-button" href="#projects">Explore impact</a>
@@ -1165,7 +1208,7 @@
 
     <section id="about" class="section">
       <div class="section-header">
-        <span class="kicker">👨‍💻 About Me</span>
+        <span class="kicker">👤 About Me</span>
         <h2>Profile</h2>
       </div>
       <div class="contact-card" aria-label="About me card">
@@ -1182,7 +1225,7 @@
 
     <section id="projects" class="section">
       <div class="section-header">
-        <span class="kicker">📈 Marketing Projects</span>
+        <span class="kicker">📊 Marketing Projects</span>
         <h2>Campaigns that moved the market</h2>
       </div>
 
@@ -1247,7 +1290,7 @@
 
     <section id="events" class="section">
       <div class="section-header">
-        <span class="kicker">🎤 Webinars &amp; Events</span>
+        <span class="kicker">🎙️ Webinars &amp; Events</span>
         <h2>Event gallery</h2>
       </div>
 
@@ -1288,7 +1331,7 @@
 
     <section id="analytics" class="section">
       <div class="section-header">
-        <span class="kicker">📊 Analytics &amp; Reporting</span>
+        <span class="kicker">📈 Analytics &amp; Reporting</span>
         <h2>Tools and performance intelligence</h2>
       </div>
 

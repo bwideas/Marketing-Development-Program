@@ -137,12 +137,13 @@ To improve campaign performance visibility immediately, all digital campaigns sh
 
 To make the highest-impact, lowest-effort item enforceable in day-to-day execution, use the launch gate template before any campaign goes live.
 
-**Template path:** `.github/ISSUE_TEMPLATE/campaign-launch-performance-gate.yml`
+**Issue template:** Use `.github/ISSUE_TEMPLATE/campaign-launch-performance-gate.yml` to launch the campaign.
 
 **What it enforces:**
-- Complete UTM fields before launch approval
-- Named marketing and sales owners
-- Baseline KPI targets (CPL and cost per MQL) and dashboard-link visibility
+- All 4 UTM fields must be complete before launch approval
+- A live KPI dashboard link must be provided
+- Named marketing and sales owners must be assigned
+- Baseline KPI targets for CPL and cost per MQL must be set
 
 ---
 
