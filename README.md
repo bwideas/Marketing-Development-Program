@@ -1,7 +1,7 @@
 # Marketing Development Program - B2B Initiative
 
 ### Executive Summary
-This B2B marketing roadmap outlines the strategic development program for commercial growth in Saudi Arabia. The initiative focuses on digital innovation, strategic partnerships, customer-centric solutions, and measurable pipeline impact.
+This B2B marketing roadmap outlines the strategic development program for commercial growth in Saudi Arabia. The initiative focuses on digital innovation, strategic partnerships, customer-centric s[...]
 
 ## 
 Industries:  
@@ -17,13 +17,6 @@ Applications:
 Verticals:
 - District cooling
 - After market Services 
-
----
-
-## Webinar Content
-
-- [Webinar Index](webinars/index.md)
-- [Webinar 1: HVAC Applications](webinars/webinar-1-hvac-applications.md)
 
 ---
 
