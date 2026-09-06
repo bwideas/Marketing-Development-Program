@@ -8,7 +8,7 @@
 ## Webinar 3
 - **Title:** Reliable Wastewater Systems: Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation
 - **Audience:** Mechanical Engineers, Plumbing/Public Health Engineers, MEP Engineers, Consultants, Contractors, Facility Managers
-- **Date:** 11.10.2026
+- **Date:** 07.10.2026
 - **Speakers:** Marwan Rabie, Ezz Mamdouh
 - **Status:** Ready
 - **Content:** [Registration page](webinar-3-wastewater-systems.md) | [Promotion plan](webinar-3-promotion.md)
