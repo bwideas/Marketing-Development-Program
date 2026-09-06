@@ -23,7 +23,7 @@ body:
     id: channel
     attributes:
       label: Channel
-      placeholder: linkedin, google, email, partner
+      placeholder: social-network, search, email, partner
     validations:
       required: true
 
@@ -32,7 +32,7 @@ body:
     attributes:
       label: Landing URL with UTM parameters
       description: Must include utm_source, utm_medium, utm_campaign, utm_content.
-      placeholder: https://www.grundfos.com/sa/commercial-buildings?utm_source=linkedin&utm_medium=paid_social&utm_campaign=p2_leadgen_facilitymanagers&utm_content=ad_a
+      placeholder: https://www.example.com/{landing-page}?utm_source={source}&utm_medium={medium}&utm_campaign={phase_objective_audience}&utm_content={asset_id}
     validations:
       required: true
 
