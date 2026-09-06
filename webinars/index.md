@@ -3,11 +3,11 @@
 ## Webinar 1 — Optimized Chilled Water Systems
 - **Title:** Optimized Chilled Water Systems: Smart HVAC Pumping Strategies for Energy-Efficient and Reliable Commercial Building Performance
 - **Date:** 30 July 2026 | 13:00–15:00 KSA Time
-- **Platform:** Microsoft Teams | 2 CPD Hours
-- **Speakers:** Niren Rohanlal (Senior Regional Product & Solution Manager – CBS Advanced Core & Systems, IMEA) & Tariq Dewali (Sales Development Engineer)
+- **Platform:** online meeting platform | 2 CPD Hours
+- **Speakers:** Niren Rohanlal (Senior Regional Product & Solution Manager – B2B Advanced Core & Systems, IMEA) & Tariq Dewali (Sales Development Engineer)
 - **Audience:** Mechanical Engineers, HVAC Engineers, MEP Engineers, Project Managers, Consultants, Contractors
 - **Status:** ✅ Done — webinar delivered 30 July 2026
-- **Content:** Teams event page, LinkedIn Posts 1–3, Social Share (Announcement & Insights), Speaker bios, Tariq's video script
+- **Content:** Online meeting event page, professional social network Posts 1–3, Social Share (Announcement & Insights), Speaker bios, Tariq's video script
 - **Session:** Webinar 1: Optimized Chilled Water Webinar (ID: f039ee0b-b2dc-4c1e-9705-9006573afa7b)
 - **Branch:** theprimecore-webinar-1-hvac-applications
 - **File:** [webinars/webinar-1-hvac-applications.md](webinar-1-hvac-applications.md)
@@ -27,10 +27,10 @@
 - **Title:** Reliable Wastewater Systems: Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation
 - **Theme:** Drainage vs. sewage pump selection, anti-clog design, and system protection strategies to prevent flooding and costly equipment damage in commercial buildings
 - **Date:** 11 September 2026 | 13:00–15:00 KSA Time
-- **Platform:** Microsoft Teams | 2 CPD Hours
-- **Speakers:** Marwan Rabie & Ezz Mamdouh (Grundfos) — job titles TBC
-- **Status:** 🔄 In Progress — Teams registration URL & speaker titles pending
-- **Content:** Registration page (webinar-3-wastewater-systems.md), promotional email + LinkedIn plan (webinar-3-promotion.md)
+- **Platform:** online meeting platform | 2 CPD Hours
+- **Speakers:** Marwan Rabie & Ezz Mamdouh (Example Organization) — job titles TBC
+- **Status:** 🔄 In Progress — registration URL & speaker titles pending
+- **Content:** Registration page (webinar-3-wastewater-systems.md), promotional email + professional social network plan (webinar-3-promotion.md)
 - **Session:** Webinar 3 (ID: bdb4d566-dc44-4824-8082-ddd24e394aa0)
 - **Branch:** theprimecore-webinar-3-content (commit e5fe94a)
 
@@ -41,4 +41,3 @@
 - **Theme:** Practical digital monitoring and predictive-maintenance methods that improve HVAC pumping uptime, reduce unplanned interventions, and strengthen lifecycle performance in KSA commercial facilities
 - **Status:** 🟡 Content produced — date/speakers TBC
 - **Session:** Webinar 4 (ID: bae6b59b-3b4f-40a7-97ee-0682f930ae6f)
-

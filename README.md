@@ -20,10 +20,15 @@ Verticals:
 
 ---
 
-## Webinar Content
+## Program Work & Deliverables
 
-- [Webinar Index](webinars/index.md)
-- [Webinar 1: HVAC Applications](webinars/webinar-1-hvac-applications.md)
+This index connects the completed and in-progress work to the roadmap phases and backlog:
+
+- **Webinars:** [Webinar Index](webinars/index.md) catalogs the webinar series and status; [Webinar 1: HVAC Applications](webinars/webinar-1-hvac-applications.md) contains the event brief, speaker copy, and promotional messages for the Phase 2 campaign-launch and event-to-pipeline backlog items.
+- **Portfolio:** [Marketing portfolio](portfolio/index.html) presents the program results, campaigns, tools, and upcoming work across the roadmap; [portfolio PDF](portfolio/Bandar-Aldawood-Marketing-Portfolio.pdf) is the shareable export. Supporting visual assets are in [`portfolio/assets/`](portfolio/assets/).
+- **Campaign template:** [Campaign launch performance gate](.github/ISSUE_TEMPLATE/campaign-launch-performance-gate.yml) operationalizes the UTM, ownership, and KPI checks in the implemented quick win and supports the Phase 2 launch process.
+
+These deliverables provide the working body of evidence for the foundation, campaign launch, and optimization phases.
 
 ---
 
@@ -41,7 +46,7 @@ Establish the brand as the preferred partner for commercial building solutions a
 Create seamless digital experiences that educate, engage, and convert decision makers and contractors.
 
 **Key Actions:**
-- Launch integrated digital campaigns across LinkedIn, industry platforms, and digital channels
+- Launch integrated digital campaigns across professional social networks, industry platforms, and digital channels
 - Develop technical content showcasing product efficiency and cost-saving benefits
 - Implement targeted advertising reaching facility managers and procurement professionals
 
@@ -76,7 +81,7 @@ Build a collaborative ecosystem supporting mutual growth and business success.
 
 | Channel | Tactic | Objective |
 |---------|--------|-----------|
-| **Social Media** | LinkedIn thought leadership, targeted ads, case studies | Build authority, generate leads |
+| **Social Media** | Professional social network thought leadership, targeted ads, case studies | Build authority, generate leads |
 | **Digital Events** | Webinars, virtual product showcases, industry forums | Educate market, establish expertise |
 | **Content Marketing** | Technical guides, ROI calculators, sustainability reports | Address customer pain points |
 | **Direct Outreach** | Sales team engagement, relationship building, customized proposals | Convert decision makers |
@@ -115,13 +120,13 @@ Build a collaborative ecosystem supporting mutual growth and business success.
 To improve campaign performance visibility immediately, all digital campaigns should use a shared UTM format and feed a single weekly dashboard.
 
 **UTM convention (required):**
-- `utm_source` (linkedin, google, email, partner)
+- `utm_source` (social-network, search, email, partner)
 - `utm_medium` (paid_social, cpc, webinar, newsletter)
 - `utm_campaign` (phase_objective_audience, e.g., `p2_leadgen_facilitymanagers`)
 - `utm_content` (creative or asset identifier)
 
 **Campaign URL template (copy/paste):**
-`https://www.grundfos.com/sa/commercial-buildings?utm_source={source}&utm_medium={medium}&utm_campaign={phase_objective_audience}&utm_content={asset_id}`
+`https://www.example.com/{landing-page}?utm_source={source}&utm_medium={medium}&utm_campaign={phase_objective_audience}&utm_content={asset_id}`
 
 **Weekly dashboard minimum fields:**
 - Spend

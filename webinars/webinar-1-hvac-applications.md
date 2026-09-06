@@ -6,38 +6,37 @@
 ## Event details
 - **Date:** 30.07.2026
 - **Time:** 13:00–15:00 Saudi Arabia Time
-- **Platform:** Microsoft Teams
+- **Platform:** online meeting platform
 - **CPD:** 2 certified hours
-- **Registration:** https://events.teams.microsoft.com/event/25e62b36-efba-4839-9b20-ee80cddc7a1f@dabd5d90-87c2-44c9-93cd-783e03236e40
-- **Teams join link:** https://teams.microsoft.com/meet/35875278011660?p=eW5XgA1K1QlBGYbhgo
-- **Meeting ID:** 358 752 780 116 60
-- **Passcode:** Cm6xB2qJ
+- **Registration:** https://www.example.com/{registration-link}
+- **Join link:** https://www.example.com/{meeting-link}
+- **Meeting details:** Available from the event owner
 
 ## Speakers
 
 ### Tariq Dewali
-**Title:** Sales Development Engineer, Grundfos
+**Title:** Sales Development Engineer, Example Organization
 
-**Bio:** Tariq Dewali is a certified pumping and HVAC systems professional with expertise in the design, optimization, and reliability of hydronic and chilled water systems. In his current role at Grundfos, Tariq works closely with consultants, contractors, and facility teams across Saudi Arabia, helping customers design and operate efficient, reliable, and high-performing HVAC and chiller systems. Driven by a passion for engineering precision, Tariq is committed to helping commercial buildings across the region achieve smarter and more energy-efficient cooling performance.
+**Bio:** Tariq Dewali is a certified pumping and HVAC systems professional with expertise in the design, optimization, and reliability of hydronic and chilled water systems. In his current role at Example Organization, Tariq works closely with consultants, contractors, and facility teams across Saudi Arabia, helping customers design and operate efficient, reliable, and high-performing HVAC and chiller systems. Driven by a passion for engineering precision, Tariq is committed to helping commercial buildings across the region achieve smarter and more energy-efficient cooling performance.
 
 ### Niren Rohanlal
-**Title:** Senior Regional Product & Solution Manager – CBS Advanced Core & Systems, IMEA, Grundfos
+**Title:** Senior Regional Product & Solution Manager – B2B Advanced Core & Systems, IMEA, Example Organization
 
-**Bio:** Niren Rohanlal is a seasoned pumping and water solutions professional with over a decade of experience across the IMEA region. As Senior Regional Product & Solution Manager – CBS Advanced Core & Systems, IMEA at Grundfos, Niren works closely with key stakeholders to help customers optimize system performance, reduce operational costs, and achieve their sustainability goals through smart and energy-efficient pumping solutions.
+**Bio:** Niren Rohanlal is a seasoned pumping and water solutions professional with over a decade of experience across the IMEA region. As Senior Regional Product & Solution Manager – B2B Advanced Core & Systems, IMEA at Example Organization, Niren works closely with key stakeholders to help customers optimize system performance, reduce operational costs, and achieve their sustainability goals through smart and energy-efficient pumping solutions.
 
 ---
 
-## Message 1 — Microsoft Teams Event Page
+## Message 1 — online meeting platform Event Page
 
 **Webinar: Optimized Chilled Water Systems**
 
 **What you will learn:**
-This webinar is CPD-certified through Grundfos Holding A/S.
+This webinar is CPD-certified through the program organization.
 
 **In our webinar:**
 We'll explore how hydronic chilled water systems are at the core of efficient building cooling — and how the right pumping design choices directly impact energy performance, system reliability, and long-term sustainability across Saudi Arabia.
 
-Our speakers **Niren Rohanlal, Regional Product & Solution Manager – IMEA, Grundfos**, and **Tariq Dewali, Sales Development Engineer, Grundfos**, will share practical insights into how intelligent pumping solutions support high-performance HVAC systems, enabling energy savings, operational efficiency, and lower lifecycle costs, including:
+Our speakers **Niren Rohanlal, Regional Product & Solution Manager – IMEA, Example Organization**, and **Tariq Dewali, Sales Development Engineer, Example Organization**, will share practical insights into how intelligent pumping solutions support high-performance HVAC systems, enabling energy savings, operational efficiency, and lower lifecycle costs, including:
 
 **· Hydronic system configurations and chiller plant design**
 Understand the fundamentals of constant flow, primary/secondary, and variable primary flow systems — and how selecting the right configuration improves chiller performance and reduces energy waste.
@@ -52,7 +51,7 @@ Register now to secure your spot. We look forward to seeing you at the webinar.
 
 ---
 
-## Message 2 — Social Share Post (LinkedIn)
+## Message 2 — Social Share Post (professional social network)
 
 Up to 50% of a commercial building's energy consumption comes from its HVAC and chiller systems 😳
 
@@ -70,23 +69,23 @@ If HVAC and chiller systems are your world, this is a conversation you don't wan
 
 Bonus: this webinar counts towards your Continuing Professional Development (CPD), helping you stay compliant and grow your expertise.
 
-Book your spot here: https://events.teams.microsoft.com/event/25e62b36-efba-4839-9b20-ee80cddc7a1f@dabd5d90-87c2-44c9-93cd-783e03236e40
+Book your spot here: https://www.example.com/{registration-link}
 
-#HVAC #ChilledWaterSystems #EnergyEfficiency #IntelligentPumping #CPD #Grundfos #SaudiArabia
+#HVAC #ChilledWaterSystems #EnergyEfficiency #IntelligentPumping #CPD #SaudiArabia
 
 ---
 
-## Message 3 — LinkedIn Body Text for Tariq's Video Post
+## Message 3 — professional social network Body Text for Tariq's Video Post
 
 As commercial buildings across Saudi Arabia continue to grow in scale and complexity, the demand for efficient and reliable HVAC and chiller systems has never been greater.
 
-Join our CPD webinar on Microsoft Teams to learn how Grundfos is shaping the future of HVAC and chilled water systems with smarter, more energy-efficient pumping strategies for commercial buildings across Saudi Arabia.
+Join our CPD webinar on online meeting platform to learn how Example Organization is shaping the future of HVAC and chilled water systems with smarter, more energy-efficient pumping strategies for commercial buildings across Saudi Arabia.
 
-Hear from **Tariq Dewali** — Sales Development Engineer, Grundfos — as he breaks down how intelligent pumping systems help commercial buildings cut energy use, operate more efficiently, and achieve long-term reliability.
+Hear from **Tariq Dewali** — Sales Development Engineer, Example Organization — as he breaks down how intelligent pumping systems help commercial buildings cut energy use, operate more efficiently, and achieve long-term reliability.
 
-Reserve your seat today: https://events.teams.microsoft.com/event/25e62b36-efba-4839-9b20-ee80cddc7a1f@dabd5d90-87c2-44c9-93cd-783e03236e40
+Reserve your seat today: https://www.example.com/{registration-link}
 
-#HVAC #ChilledWaterSystems #EnergyEfficiency #IntelligentPumping #CPD #Grundfos #SaudiArabia
+#HVAC #ChilledWaterSystems #EnergyEfficiency #IntelligentPumping #CPD #SaudiArabia
 
 ---
 
@@ -96,7 +95,6 @@ As commercial buildings across Saudi Arabia continue to grow in scale and comple
 
 Through my experience across the region, I see every day how the right pumping strategy can make a real difference — in energy performance, system stability, and long-term reliability.
 
-At Grundfos, with deep expertise in pumping technology and building services, we are powering the next generation of smart, efficient, and reliable HVAC and chiller systems for commercial buildings across the region.
+At Example Organization, with deep expertise in pumping technology and building services, we are powering the next generation of smart, efficient, and reliable HVAC and chiller systems for commercial buildings across the region.
 
 To learn more, please join us in our upcoming **CPD webinar**.
-
