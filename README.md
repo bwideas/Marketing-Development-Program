@@ -29,6 +29,7 @@ Establish the brand as the preferred partner for commercial building solutions a
 - Develop localized marketing campaigns reflecting Saudi Arabian business culture
 - Build strategic partnerships with major contractors and consulting engineers
 - Position expertise in energy-efficient, sustainable building solutions
+- Participate in major industry events such as Big 5, Engineering Day, and other construction events
 
 ### Digital Innovation & Customer Engagement
 Create seamless digital experiences that educate, engage, and convert decision makers and contractors.
@@ -37,6 +38,8 @@ Create seamless digital experiences that educate, engage, and convert decision m
 - Launch integrated digital campaigns across LinkedIn, industry platforms, and digital channels
 - Develop technical content showcasing product efficiency and cost-saving benefits
 - Implement targeted advertising reaching facility managers and procurement professionals
+- Invest in paid media placements on websites related to construction and water solutions
+- Send email campaigns to contacts with confirmed (true) marketing permissions, including dedicated emails to customers and dealers
 
 ### Stakeholder Relationship Building
 Foster long-term partnerships with key decision makers, contractors, and engineering firms through meaningful collaboration and support.
@@ -45,6 +48,8 @@ Foster long-term partnerships with key decision makers, contractors, and enginee
 - Organize industry forums, technical seminars, and product demonstrations
 - Establish direct communication channels with C-suite and technical decision makers
 - Create customized solutions for specific customer needs and business challenges
+- Deliver technical trainings for engineers to build interest in our products and solutions
+- Conduct customer visits to VIP customers to understand their needs
 
 ### Sustainable Growth Through Cooperation
 Build a collaborative ecosystem supporting mutual growth and business success.
@@ -53,6 +58,7 @@ Build a collaborative ecosystem supporting mutual growth and business success.
 - Develop distributor and contractor partner programs
 - Create incentive structures aligned with customer value delivery
 - Support customer success through comprehensive training and technical support
+- Support partners with branding budget and gifts to win their loyalty
 
 ---
 
@@ -70,10 +76,15 @@ Build a collaborative ecosystem supporting mutual growth and business success.
 | Channel | Tactic | Objective |
 |---------|--------|-----------|
 | **Social Media** | LinkedIn thought leadership, targeted ads, case studies | Build authority, generate leads |
+| **Paid Media** | Sponsored placements and display ads on websites related to construction and water solutions | Reach in-market industry audiences, generate qualified leads |
+| **Email Marketing** | Permission-based email campaigns to contacts with true marketing permissions; dedicated emails to customers and dealers | Nurture leads, strengthen customer and dealer relationships |
+| **Industry Events & Exhibitions** | Participation in major events such as Big 5, Engineering Day, and other construction events | Boost brand visibility, network with industry stakeholders, generate leads |
 | **Digital Events** | Webinars, virtual product showcases, industry forums | Educate market, establish expertise |
+| **Engineer Trainings** | Technical training sessions for engineers on our products and solutions | Build product interest and technical advocacy among engineers |
+| **VIP Customer Visits** | In-person visits to VIP customers to understand their needs | Deepen relationships, capture customer insights |
 | **Content Marketing** | Technical guides, ROI calculators, sustainability reports | Address customer pain points |
 | **Direct Outreach** | Sales team engagement, relationship building, customized proposals | Convert decision makers |
-| **Partnerships** | Strategic alliances, co-marketing initiatives | Expand market reach |
+| **Partnerships** | Strategic alliances, co-marketing initiatives, branding budget support and gifts for partners | Expand market reach, win partner loyalty |
 
 ---
 
