@@ -30,6 +30,7 @@ Establish the brand as the preferred partner for commercial building solutions a
 - Build strategic partnerships with major contractors and consulting engineers
 - Position expertise in energy-efficient, sustainable building solutions
 - Participate in major industry events such as Big 5, Engineering Day, and other construction events
+- Win at least one case story for a big project every year, including customer consent to publish it on the company website
 
 ### Digital Innovation & Customer Engagement
 Create seamless digital experiences that educate, engage, and convert decision makers and contractors.
@@ -82,6 +83,7 @@ Build a collaborative ecosystem supporting mutual growth and business success.
 | **Digital Events** | Webinars, virtual product showcases, industry forums | Educate market, establish expertise |
 | **Engineer Trainings** | Technical training sessions for engineers on our products and solutions | Build product interest and technical advocacy among engineers |
 | **VIP Customer Visits** | In-person visits to VIP customers to understand their needs | Deepen relationships, capture customer insights |
+| **Case Stories** | Win a case story for a big project every year, with customer consent to publish it on the company website | Build credibility, showcase proven results to prospects |
 | **Content Marketing** | Technical guides, ROI calculators, sustainability reports | Address customer pain points |
 | **Direct Outreach** | Sales team engagement, relationship building, customized proposals | Convert decision makers |
 | **Partnerships** | Strategic alliances, co-marketing initiatives, branding budget support and gifts for partners | Expand market reach, win partner loyalty |
@@ -96,6 +98,7 @@ Build a collaborative ecosystem supporting mutual growth and business success.
 - **Event Engagement:** Attendance, follow-up conversions, and partnership outcomes
 - **Digital Metrics:** Website traffic, content engagement, conversion rates
 - **Revenue Impact:** Pipeline development and closed deals attributed to the B2B program
+- **Case Stories:** At least one big project case story secured per year, with customer consent for publication on the company website
 
 ---
 
