@@ -64,7 +64,11 @@
 
   /* Layout */
   main { max-width: 1100px; margin: 0 auto; padding: 0 6vw; }
-  section { padding: 3.5rem 0 1rem; }
+  section {
+    padding: 3.5rem 0 1rem;
+    content-visibility: auto;
+    contain-intrinsic-size: 800px;
+  }
   h2 { color: var(--blue-dark); font-size: 1.6rem; margin-bottom: 0.4rem; }
   .subtitle { color: var(--muted); margin-bottom: 1.8rem; max-width: 700px; }
   .rule { width: 56px; height: 4px; background: var(--accent); border-radius: 2px; margin: 0.6rem 0 1.4rem; }
@@ -519,4 +523,3 @@
 
 </body>
 </html>
-
