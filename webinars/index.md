@@ -6,7 +6,7 @@
 - **Platform:** Microsoft Teams | 2 CPD Hours
 - **Speakers:** Niren Rohanlal (Senior Regional Product & Solution Manager – CBS Advanced Core & Systems, IMEA) & Tariq Dewali (Sales Development Engineer)
 - **Audience:** Mechanical Engineers, HVAC Engineers, MEP Engineers, Project Managers, Consultants, Contractors
-- **Status:** ✅ Confirmed — All content produced
+- **Status:** ✅ Done — webinar delivered 30 July 2026
 - **Content:** Teams event page, LinkedIn Posts 1–3, Social Share (Announcement & Insights), Speaker bios, Tariq's video script
 - **Session:** Webinar 1: Optimized Chilled Water Webinar (ID: f039ee0b-b2dc-4c1e-9705-9006573afa7b)
 - **Branch:** theprimecore-webinar-1-hvac-applications
@@ -17,7 +17,7 @@
 ## Webinar 2 — Optimizing HVAC Pumping Systems
 - **Title:** CPD Webinar 2 | Optimizing HVAC Pumping Systems for Energy Performance in Saudi Commercial Buildings
 - **Theme:** Practical pump-system optimization strategies that reduce energy use, improve control stability, and improve lifecycle value in KSA commercial facilities
-- **Status:** 🟡 Content produced — date/speakers TBC
+- **Status:** 🔄 In Progress — date/speakers TBC
 - **Session:** Webinar 2 (ID: 5b7bd6ff-0bdd-4cac-a47b-8c4851d24af7)
 - **Branch:** theprimecore-webinar-2-content
 
@@ -29,7 +29,7 @@
 - **Date:** 11 September 2026 | 13:00–15:00 KSA Time
 - **Platform:** Microsoft Teams | 2 CPD Hours
 - **Speakers:** Marwan Rabie & Ezz Mamdouh (Grundfos) — job titles TBC
-- **Status:** 🟢 Content ready — Teams registration URL & speaker titles pending
+- **Status:** 🔄 In Progress — Teams registration URL & speaker titles pending
 - **Content:** Registration page (webinar-3-wastewater-systems.md), promotional email + LinkedIn plan (webinar-3-promotion.md)
 - **Session:** Webinar 3 (ID: bdb4d566-dc44-4824-8082-ddd24e394aa0)
 - **Branch:** theprimecore-webinar-3-content (commit e5fe94a)
