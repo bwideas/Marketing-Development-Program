@@ -86,16 +86,11 @@ Build a collaborative ecosystem supporting mutual growth and business success.
 ## Campaign Channels & Tactics
 
 | Channel | Tactic | Objective |
-<<<<<<< HEAD
-| --- | --- | --- |
-| **Social Media** | LinkedIn thought leadership, targeted ads, case studies | Build authority, generate leads |
-=======
 |---------|--------|-----------|
 | **Social Media** | Professional social network thought leadership, targeted ads, case studies | Build authority, generate leads |
 | **Paid Media** | Sponsored placements and display ads on websites related to construction and water solutions | Reach in-market industry audiences, generate qualified leads |
 | **Email Marketing** | Permission-based email campaigns to contacts with true marketing permissions; dedicated emails to customers and dealers | Nurture leads, strengthen customer and dealer relationships |
 | **Industry Events & Exhibitions** | Participation in major construction and engineering events | Boost brand visibility, network with industry stakeholders, generate leads |
->>>>>>> origin/main
 | **Digital Events** | Webinars, virtual product showcases, industry forums | Educate market, establish expertise |
 | **Engineer Trainings** | Technical training sessions for engineers on our products and solutions | Build product interest and technical advocacy among engineers |
 | **VIP Customer Visits** | In-person visits to VIP customers to understand their needs | Deepen relationships, capture customer insights |
