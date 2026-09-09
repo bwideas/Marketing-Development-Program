@@ -26,13 +26,14 @@
 ## Webinar 3 — Reliable Wastewater Systems
 - **Title:** Reliable Wastewater Systems: Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation
 - **Theme:** Drainage vs. sewage pump selection, anti-clog design, and system protection strategies to prevent flooding and costly equipment damage in commercial buildings
-- **Date:** 11 September 2026 | 13:00–15:00 KSA Time
-- **Platform:** online meeting platform | 2 CPD Hours
-- **Speakers:** Marwan Rabie & Ezz Mamdouh (Example Organization) — job titles TBC
+- **Date:** 7 October 2026 | 13:00–15:00 KSA Time
+- **Platform:** Microsoft Teams | 2 CPD Hours
+- **Speakers:** Marwan Rabie & Ezz Mamdouh — job titles TBC
+- **Audience:** Mechanical Engineers, Plumbing/Public Health Engineers, MEP Engineers, Consultants, Contractors, Facility Managers
 - **Status:** 🔄 In Progress — registration URL & speaker titles pending
-- **Content:** Registration page (webinar-3-wastewater-systems.md), promotional email + professional social network plan (webinar-3-promotion.md)
+- **Content:** [Registration page](webinar-3-wastewater-systems.md) | [Promotion campaign](webinar-3-promotion.md) (calendar, designer briefs, Posts 1–3, Emails 1–3)
 - **Session:** Webinar 3 (ID: bdb4d566-dc44-4824-8082-ddd24e394aa0)
-- **Branch:** theprimecore-webinar-3-content (commit e5fe94a)
+- **Branch:** theprimecore-webinar-3-content
 
 ---
 

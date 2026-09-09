@@ -24,7 +24,7 @@ Verticals:
 
 This index connects the completed and in-progress work to the roadmap phases and backlog:
 
-- **Webinars:** [Webinar Index](webinars/index.md) catalogs the webinar series and status; [Webinar 1: HVAC Applications](webinars/webinar-1-hvac-applications.md) contains the event brief, speaker copy, and promotional messages for the Phase 2 campaign-launch and event-to-pipeline backlog items.
+- **Webinars:** [Webinar Index](webinars/index.md) catalogs the webinar series and status; [Webinar 1: HVAC Applications](webinars/webinar-1-hvac-applications.md) contains the event brief, speaker copy, and promotional messages for the Phase 2 campaign-launch and event-to-pipeline backlog items. [Webinar 3: Reliable Wastewater Systems](webinars/webinar-3-wastewater-systems.md) is the registration page content, with its full promotional campaign in [Webinar 3: Promotion Plan](webinars/webinar-3-promotion.md).
 - **Portfolio:** [Marketing portfolio](portfolio/index.html) presents the program results, campaigns, tools, and upcoming work across the roadmap; [portfolio PDF](portfolio/Bandar-Aldawood-Marketing-Portfolio.pdf) is the shareable export. Supporting visual assets are in [`portfolio/assets/`](portfolio/assets/).
 - **Campaign template:** [Campaign launch performance gate](.github/ISSUE_TEMPLATE/campaign-launch-performance-gate.yml) operationalizes the UTM, ownership, and KPI checks in the implemented quick win and supports the Phase 2 launch process.
 
