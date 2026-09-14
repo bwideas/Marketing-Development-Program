@@ -1,37 +1,48 @@
 IMAP — Intelligent Marketing & Automation Program — B2B Strategy
 
-### Executive Summary
+# 1.0 Executive Summary
+
 This B2B marketing plan outlines the strategic development program for commercial growth in Saudi Arabia and Egypt. The program brings together marketing, digital engagement, automation, customer intelligence, stakeholder development, and performance optimization into one structured framework.
 
 The strategy focuses on strengthening market presence, improving customer engagement, developing strategic relationships, increasing marketing efficiency, and creating measurable contribution to the commercial pipeline.
 
 IMAP will prioritize high-value industries, applications, and customer groups while using data, digital channels, automation, and continuous performance optimization to create a more connected and scalable B2B marketing model.
 
-Strategic Focus
-Markets: Saudi Arabia & Egypt
+---
 
-## 
-Industries:  
-- Data Center
-- Health care 	
-- Mixed-Use Buildings
-- Residential
-- Hospitality	
+## 1.1 Strategic Focus
 
-Applications:
-- Pressure boosting
-- HVAC
-- Wastewater
-- Heating & Cooling
+### Markets
 
-Verticals:
-- District cooling
-- After market Services 
-- Energy Optimization
+* Saudi Arabia
+* MENA Region
+
+### Industries
+
+* Data Center
+* Health care
+* Mixed-Use Buildings
+* Residential
+* Hospitality
+
+### Applications
+
+* Pressure boosting
+* HVAC
+* Wastewater
+* Heating & Cooling
+
+### Verticals
+
+* District cooling
+* After market Services
+* Energy Optimization
 
 ---
 
-## 1.1 Market Penetration & Brand Leadership
+# 2.0 Strategic Pillars
+
+## 2.1 Market Penetration & Brand Leadership
 
 Strengthen the brand’s position as a preferred partner for commercial building solutions by increasing visibility, market relevance, and engagement across priority industries and customer segments.
 
@@ -46,7 +57,7 @@ Strengthen the brand’s position as a preferred partner for commercial building
 
 ---
 
-### 2. Digital Innovation & Customer Engagement
+## 2.2 Digital Innovation & Customer Engagement
 
 Create connected digital experiences that educate, engage, nurture, and convert B2B decision makers.
 
@@ -62,7 +73,7 @@ Create connected digital experiences that educate, engage, nurture, and convert 
 
 ---
 
-### 3. Intelligent Marketing & Automation
+## 2.3 Intelligent Marketing & Automation
 
 Use automation, marketing technology, and intelligent data practices to improve efficiency, scalability, personalization, and decision-making.
 
@@ -80,7 +91,7 @@ Use automation, marketing technology, and intelligent data practices to improve 
 
 ---
 
-### 4. Stakeholder Relationship Building
+## 2.4 Stakeholder Relationship Building
 
 Develop deeper relationships with decision makers, engineering firms, contractors, developers, and strategic customers.
 
@@ -95,7 +106,7 @@ Develop deeper relationships with decision makers, engineering firms, contractor
 
 ---
 
-### 5. Partner & Ecosystem Development
+## 2.5 Partner & Ecosystem Development
 
 Build a strong ecosystem of distributors, contractors, consultants, and strategic partners that supports mutual growth.
 
@@ -111,26 +122,26 @@ Build a strong ecosystem of distributors, contractors, consultants, and strategi
 
 ---
 
-## 6. Target Audience
+# 3.0 Target Audience
 
-**Primary Decision Makers:**
-- Facility & Project Managers
-- Procurement Directors
-- Consulting Engineers
-- Contractors & Construction Firms
-- Property Developers
-- Operations & Maintenance Managers
+## 3.1 Primary Decision Makers:
+* Facility & Project Managers
+* Procurement Directors
+* Consulting Engineers
+* Contractors & Construction Firms
+* Property Developers
+* Operations & Maintenance Managers
 
-**Secondary Influencers:**
-- Engineering Consultants
-- Project Owners
-- System Integrators
-- Distributors
-- Dealers
+## 3.2 Secondary Influencers:
+* Engineering Consultants
+* Project Owners
+* System Integrators
+* Distributors
+* Dealers
 
 ---
 
-## 7. Campaign Channels & Tactics
+# 4.0 Campaign Channels & Tactics
 
 | Channel | Tactic | Objective |
 |---------|--------|-----------|
@@ -148,83 +159,85 @@ Build a strong ecosystem of distributors, contractors, consultants, and strategi
 
 ---
 
-## 8. Performance & Measurement
+# 5.0 Performance & Measurement
 
 IMAP will operate using a measurable performance framework connecting marketing activity to customer engagement, qualified leads, pipeline development, and commercial outcomes.
 
 **Core KPIs**
 
-**Awareness**
-- Reach
-- Impressions
-- Website traffic
-- Brand engagement
+## 5.1 Awareness
+* Reach
+* Impressions
+* Website traffic
+* Brand engagement
 
-**Engagement**
-- Content engagement
-- Email open and click-through rates
-- Event attendance
-- Training participation
+## 5.2 Engagement
+* Content engagement
+* Email open and click-through rates
+* Event attendance
+* Training participation
 
-**Lead Generation**
-- Leads
-- MQLs
-- SQLs
-- Conversion rate
+## 5.3 Lead Generation
+* Leads
+* MQLs
+* SQLs
+* Conversion rate
 
-**Commercial Impact**
-- Marketing-influenced pipeline
-- Opportunities generated
-- Pipeline conversion
-- Won revenue
+## 5.4 Commercial Impact
+* Marketing-influenced pipeline
+* Opportunities generated
+* Pipeline conversion
+* Won revenue
 
-**Relationship Development**
-- Strategic accounts engaged
-- VIP customer visits
-- Partner growth
-- Engineer engagement
-- Customer/partner satisfaction
+## 5.5 Relationship Development
+* Strategic accounts engaged
+* VIP customer visits
+* Partner growth
+* Engineer engagement
+* Customer/partner satisfaction
 
-**Content & Market Credibility**
-- Major case stories secured
-- Customer-approved publications
-- Technical content performance
+## 5.6 Content & Market Credibility
+* Major case stories secured
+* Customer-approved publications
+* Technical content performance
 
 ---
 
-## 9. Performance Improvement Backlog (Prioritized)
+# 6.0 Performance Improvement Backlog (Prioritized)
 
 The following priorities will improve marketing effectiveness and create a stronger foundation for automation.
 
-1. **Standardize campaign tracking with a mandatory UTM taxonomy and single KPI dashboard** *(Highest impact, lowest effort)*
-2. **Launch lead-source attribution (first-touch + last-touch) in CRM**
-3. **Define MQL/SQL scoring rubric to improve lead quality**
-4. **Implement conversion-focused landing page A/B testing**
-5. **Set SLA-based lead routing and follow-up automation**
-6. **Build account-based marketing (ABM) lists for top commercial prospects**
-7. **Repurpose high-performing content into Arabic + English multi-format assets**
-8. **Create event-to-pipeline playbooks with standardized post-event nurture**
-9. **Run quarterly partner performance reviews with shared scorecards**
-10. **Add budget reallocation rules based on cost-per-qualified-lead thresholds**
-11. **Document every campaign, launch gate, KPI update, and optimization decision in one shared roadmap**
-12. **Track all experiments, content, partner motions, and follow-up actions so the full body of work is visible**
+## Standardize campaign tracking with a mandatory UTM taxonomy and single KPI dashboard (Highest impact, lowest effort)
+## Launch lead-source attribution (first-touch + last-touch) in CRM
+## Define MQL/SQL scoring rubric to improve lead quality
+## Implement conversion-focused landing page A/B testing
+## Set SLA-based lead routing and follow-up automation
+## Build account-based marketing (ABM) lists for top commercial prospects
+## Repurpose high-performing content into Arabic + English multi-format assets
+## Create event-to-pipeline playbooks with standardized post-event nurture
+## Run quarterly partner performance reviews with shared scorecards
+## Add budget reallocation rules based on cost-per-qualified-lead thresholds
+## Document every campaign, launch gate, KPI update, and optimization decision in one shared strategy
+## Track all experiments, content, partner motions, and follow-up actions so the full body of work is visible
 
-## 10. Campaign Measurement Framework
+---
 
-### Implemented Quick Win: UTM Taxonomy + Unified KPI Dashboard
+# 7.0 Campaign Measurement Framework
+
+## Implemented Quick Win: UTM Taxonomy + Unified KPI Dashboard
 
 To improve campaign performance visibility immediately, all digital campaigns should use a shared UTM format and feed a single weekly dashboard.
 
-**UTM convention (required):**
+### 7.1 UTM convention (required):
 - `utm_source` (social-network, search, email, partner)
 - `utm_medium` (paid_social, cpc, webinar, newsletter)
 - `utm_campaign` (phase_objective_audience, e.g., `p2_leadgen_facilitymanagers`)
 - `utm_content` (creative or asset identifier)
 
-**Campaign URL template (copy/paste):**
+### 7.2 Campaign URL template (copy/paste):
 `https://www.example.com/{landing-page}?utm_source={source}&utm_medium={medium}&utm_campaign={phase_objective_audience}&utm_content={asset_id}`
 
-**Weekly dashboard minimum fields:**
+### 7.3 Weekly dashboard minimum fields:
 - Spend
 - Clicks
 - CTR
@@ -236,7 +249,7 @@ To improve campaign performance visibility immediately, all digital campaigns sh
 - Influenced Pipeline
 - Won Revenue
 
-**Definition of done (required before launch):**
+### 7.4 Definition of done (required before launch):
 
 Before a campaign goes live:
 1. Tracking structure is completed.
@@ -247,26 +260,28 @@ Before a campaign goes live:
 6. Dashboard tracking is confirmed.
 7. Follow-up process is agreed.
 
-**Operating cadence:** Review weekly with marketing + sales and reallocate budget to top-performing channels using CPL and cost-per-MQL as the primary short-term decision metrics.
+### 7.5 Operating cadence:
 
-### Quick-Win Operationalization: Campaign Launch Performance Gate
+Review weekly with marketing + sales and reallocate budget to top-performing channels using CPL and cost-per-MQL as the primary short-term decision metrics.
+
+## 7.6 Quick-Win Operationalization: Campaign Launch Performance Gate
 
 To make the highest-impact, lowest-effort item enforceable in day-to-day execution, use the launch gate template before any campaign goes live.
 
 **Template path:** `.github/ISSUE_TEMPLATE/campaign-launch-performance-gate.yml`
 
-**What it enforces:**
-- Complete UTM fields before launch approval
-- Named marketing and sales owners
-- Baseline KPI targets (CPL and cost per MQL) and dashboard-link visibility
+### What it enforces:
+* Complete UTM fields before launch approval
+* Named marketing and sales owners
+* Baseline KPI targets (CPL and cost per MQL) and dashboard-link visibility
 
 ---
 
-## 11. Timeline & Phases
+# 8.0 Timeline & Phases
 
-**Phase 1 — Foundation** | Months 1–3
+## Phase 1 — Foundation** | Months 1–3
 
-Objective: Establish the strategic and operational foundation.
+**Objective:** Establish the strategic and operational foundation.
 
 * Market and competitor analysis
 * Priority account identification
@@ -278,9 +293,9 @@ Objective: Establish the strategic and operational foundation.
 * Marketing automation opportunities
 * Digital channel optimization
 
-**Phase 2 — Activation** | Months 4–6
+## Phase 2 — Activation** | Months 4–6
 
-Objective: Launch and activate priority marketing initiatives.
+**Objective:** Launch and activate priority marketing initiatives.
 
 * Integrated digital campaigns
 * Paid media activation
@@ -292,9 +307,9 @@ Objective: Launch and activate priority marketing initiatives.
 * Lead nurturing workflows
 * Content rollout
 
-**Phase 3 — Optimization & Growth** | Months 7–12
+## Phase 3 — Optimization & Growth** | Months 7–12
 
-Objective: Scale what works and improve commercial impact.
+**Objective:** Scale what works and improve commercial impact.
 
 * Campaign performance optimization
 * Budget optimization
@@ -308,7 +323,7 @@ Objective: Scale what works and improve commercial impact.
 
 ---
 
-## 12. Success Factors
+# 9.0 Success Factors
 ✓ Customer-centric solution positioning  
 ✓ Authentic local market engagement  
 ✓ Consistent B2B engagement
@@ -322,13 +337,16 @@ Objective: Scale what works and improve commercial impact.
 
 ---
 
-## 13. Governance & Accountability
+# 10.0 Governance & Accountability
+
 **Project Lead:** [Bandar]  
 **Program Lead:** [Bandar]
 **Marketing Team:** Responsible for campaign execution and digital presence
 **Sales Team:** Responsible for direct stakeholder engagement and relationship building  
 
-Operating Cadence
+---
+
+# 11.0 Operating Cadence
 
 **Weekly:** Campaign and performance review
 **Monthly:** Marketing and sales performance review
@@ -337,6 +355,6 @@ Operating Cadence
 
 ---
 
-## IMAP Strategic Outcome
+# 12.0 IMAP Strategic Outcome
 
 IMAP aims to create a more intelligent, connected, measurable, and scalable B2B marketing model — moving from activity-based marketing toward data-driven customer engagement and measurable commercial impact.
