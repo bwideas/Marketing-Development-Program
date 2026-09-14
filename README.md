@@ -1,4 +1,4 @@
-#IMAP — Intelligent Marketing & Automation Program — B2B Strategy
+IMAP — Intelligent Marketing & Automation Program — B2B Strategy
 
 ### Executive Summary
 This B2B marketing plan outlines the strategic development program for commercial growth in Saudi Arabia and Egypt. The program brings together marketing, digital engagement, automation, customer intelligence, stakeholder development, and performance optimization into one structured framework.
