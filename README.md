@@ -55,8 +55,6 @@ Strengthen the brand’s position as a preferred partner for commercial building
 * Secure at least one major project case story per year, subject to customer approval for external publication.
 * Strengthen digital presence around priority applications and industry challenges.
 
----
-
 ## 2.2 Digital Innovation & Customer Engagement
 
 Create connected digital experiences that educate, engage, nurture, and convert B2B decision makers.
@@ -70,8 +68,6 @@ Create connected digital experiences that educate, engage, nurture, and convert 
 * Use permission-based email marketing for customers, dealers, prospects, and other qualified contacts.
 * Build structured customer journeys from awareness through consideration and conversion.
 * Use campaign data to continuously improve content and channel performance.
-
----
 
 ## 2.3 Intelligent Marketing & Automation
 
@@ -89,8 +85,6 @@ Use automation, marketing technology, and intelligent data practices to improve 
 * Identify repetitive manual processes and prioritize them for automation.
 * Continuously evaluate new marketing technologies that can improve productivity and customer experience.
 
----
-
 ## 2.4 Stakeholder Relationship Building
 
 Develop deeper relationships with decision makers, engineering firms, contractors, developers, and strategic customers.
@@ -103,8 +97,6 @@ Develop deeper relationships with decision makers, engineering firms, contractor
 * Deliver technical training programs for engineers and consultants.
 * Build stronger relationships with consulting engineers who influence product and solution selection.
 * Capture customer feedback and translate insights into marketing and commercial actions.
-
----
 
 ## 2.5 Partner & Ecosystem Development
 
