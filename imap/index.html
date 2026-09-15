@@ -94,6 +94,19 @@
     </div>
   </div>
 
+  <h2>Events &amp; Activities</h2>
+  <div class="card">
+    <table id="events">
+      <thead>
+        <tr><th style="width:16%">Category</th><th style="width:32%">Event / Activity</th><th style="width:18%">Date / Details</th><th style="width:18%">Status</th><th style="width:10%">Number</th><th></th></tr>
+      </thead>
+      <tbody id="eventsBody"></tbody>
+    </table>
+    <div class="toolbar">
+      <button id="addEvent">+ Add Event</button>
+    </div>
+  </div>
+
   <h2>Notes</h2>
   <div class="card">
     <p contenteditable="true" data-key="notes">Add your notes here…</p>
@@ -126,11 +139,53 @@
     {action:"Always-ON email program",             owner:"Bandar", status:"not-started", num:""}
   ];
 
+  const DEFAULT_EVENTS = [
+    // Webinars (CPD-certified series)
+    {cat:"Webinar", name:"Optimized Chilled Water Systems", detail:"Virtual · CPD", status:"completed", num:"200"},
+    {cat:"Webinar", name:"Optimizing HVAC Pumping Systems", detail:"30 Aug 2026 · CPD", status:"in-progress", num:""},
+    {cat:"Webinar", name:"Efficient Wastewater Pumping", detail:"22 Oct 2026 · CPD", status:"in-progress", num:""},
+    {cat:"Webinar", name:"Modular Systems", detail:"18 Nov 2026 · CPD", status:"in-progress", num:""},
+    // In-person events
+    {cat:"Event", name:"Ramadan Gatherings (4 cities)", detail:"Riyadh · Jeddah · Dammam · Cairo — Mar 2026", status:"completed", num:"859"},
+    {cat:"Event", name:"HVAC Day: Elevating HVAC Efficiency", detail:"Riyadh — Feb 2026", status:"completed", num:"255"},
+    {cat:"Event", name:"Energy Optimization Day", detail:"Cairo — Nov 2025", status:"completed", num:"119"},
+    {cat:"Event", name:"Mini Engineering Day 2025", detail:"Jeddah — Nov 2025", status:"completed", num:"114"},
+    {cat:"Event", name:"Let's Energize Growth", detail:"Sharm El-Sheikh — Dec 2025", status:"completed", num:"98"},
+    {cat:"Event", name:"Engineers Days, Trainings & Technical Sessions", detail:"Riyadh — 2026", status:"completed", num:"103"},
+    {cat:"Event", name:"VIP Partner Seminars (4 seminars)", detail:"Saudi Arabia — 2026", status:"completed", num:"200"},
+    {cat:"Event", name:"Big5 Construct Saudi", detail:"30 Aug – 2 Sep 2026", status:"not-started", num:""},
+    {cat:"Event", name:"Engineering Day", detail:"14 Oct 2026", status:"not-started", num:""},
+    {cat:"Event", name:"Engineering Day Jeddah", detail:"28 Oct 2026", status:"not-started", num:""},
+    {cat:"Event", name:"Engineering Camp", detail:"20–21 Nov 2026 · AlUla or Jeddah cruise", status:"not-started", num:""},
+    // Lunch & Learns
+    {cat:"Lunch & Learn", name:"Aftermarket Lunch & Learn — Jeddah", detail:"H2 2026", status:"not-started", num:""},
+    {cat:"Lunch & Learn", name:"Aftermarket Lunch & Learn — Riyadh", detail:"H2 2026", status:"not-started", num:""},
+    // AOC Emailer
+    {cat:"AOC Emailer", name:"AOC emailer program (48 assets)", detail:"22 completed · KSA + Egypt", status:"in-progress", num:"22"},
+    {cat:"AOC Emailer", name:"Remaining 24 emailers — H2 2026", detail:"Water Boosting, District Cooling, HVAC & more", status:"not-started", num:""},
+    // Social Media
+    {cat:"Social Media", name:"B2B – General campaign", detail:"55 posts · 18.56K reach", status:"in-progress", num:"55"},
+    {cat:"Social Media", name:"B2B – HVAC campaign", detail:"15 posts · 3.34K reach", status:"in-progress", num:"15"},
+    {cat:"Social Media", name:"B2B – Country Specific Content", detail:"7 posts · 3.51K reach", status:"in-progress", num:"7"},
+    {cat:"Social Media", name:"B2B – Reactive content", detail:"Ongoing", status:"in-progress", num:""},
+    // Online Campaigns
+    {cat:"Online Campaign", name:"Digital Campaign — GSA", detail:"With CPD certificates", status:"in-progress", num:""},
+    {cat:"Online Campaign", name:"B2B positioning / awareness campaign", detail:"SoMe & emailers", status:"in-progress", num:""},
+    // Trade Media Publishing
+    {cat:"Trade Media", name:"Trade media publishing — add article title…", detail:"Add publication & date", status:"not-started", num:""}
+  ];
+
   let state = load();
 
   function load(){
-    try{ return JSON.parse(localStorage.getItem(STORE)) || {texts:{}, rows:DEFAULT_ROWS.map(r=>({...r}))}; }
-    catch(e){ return {texts:{}, rows:DEFAULT_ROWS.map(r=>({...r}))}; }
+    try{
+      const s = JSON.parse(localStorage.getItem(STORE)) || {};
+      s.texts = s.texts || {};
+      s.rows = s.rows || DEFAULT_ROWS.map(r=>({...r}));
+      s.events = s.events || DEFAULT_EVENTS.map(r=>({...r}));
+      return s;
+    }
+    catch(e){ return {texts:{}, rows:DEFAULT_ROWS.map(r=>({...r})), events:DEFAULT_EVENTS.map(r=>({...r}))}; }
   }
   function save(){
     localStorage.setItem(STORE, JSON.stringify(state));
@@ -197,6 +252,61 @@
     });
   }
   render();
+
+  // Events table
+  const evBody = document.getElementById("eventsBody");
+  function editableTd(row, key){
+    const td = document.createElement("td");
+    td.contentEditable = "true"; td.textContent = row[key];
+    td.addEventListener("input", ()=>{ row[key] = td.textContent; save(); });
+    return td;
+  }
+  function renderEvents(){
+    evBody.innerHTML = "";
+    state.events.forEach((row,i)=>{
+      const tr = document.createElement("tr");
+      const tdCat = editableTd(row, "cat");
+      tdCat.style.color = "var(--accent)"; tdCat.style.fontWeight = "600";
+      const tdName = editableTd(row, "name");
+      const tdDetail = editableTd(row, "detail");
+      tdDetail.style.color = "var(--muted)"; tdDetail.style.fontSize = ".88rem";
+
+      const tdS = document.createElement("td");
+      const sel = document.createElement("select"); sel.className = "status";
+      STATUSES.forEach(s=>{
+        const o = document.createElement("option");
+        o.value = s.v; o.textContent = s.label;
+        if(row.status === s.v) o.selected = true;
+        sel.appendChild(o);
+      });
+      function paint(){ sel.className = "status " + STATUSES.find(s=>s.v===sel.value).cls; }
+      paint();
+      sel.addEventListener("change", ()=>{ row.status = sel.value; paint(); save(); });
+      tdS.appendChild(sel);
+
+      const tdN = document.createElement("td");
+      const num = document.createElement("input");
+      num.type = "number"; num.value = row.num; num.placeholder = "0";
+      num.style.cssText = "width:80px; background:var(--card2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:.3rem .4rem;";
+      num.addEventListener("input", ()=>{ row.num = num.value; save(); });
+      tdN.appendChild(num);
+
+      const tdX = document.createElement("td");
+      const del = document.createElement("button");
+      del.className = "del"; del.title = "Delete row"; del.textContent = "✕";
+      del.addEventListener("click", ()=>{ state.events.splice(i,1); save(); renderEvents(); });
+      tdX.appendChild(del);
+
+      tr.append(tdCat, tdName, tdDetail, tdS, tdN, tdX);
+      evBody.appendChild(tr);
+    });
+  }
+  renderEvents();
+
+  document.getElementById("addEvent").addEventListener("click", ()=>{
+    state.events.push({cat:"Event", name:"New event…", detail:"", status:"not-started", num:""});
+    save(); renderEvents();
+  });
 
   document.getElementById("addRow").addEventListener("click", ()=>{
     state.rows.push({action:"New action…", owner:"", status:"not-started", num:""});
