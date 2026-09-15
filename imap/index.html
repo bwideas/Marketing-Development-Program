@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IMAP — Intelligent Marketing &amp; Automation Program — B2B Strategy</title>
+<style>
+  :root{
+    --bg:#0f1420; --card:#171e2e; --card2:#1d2537; --line:#2a3550;
+    --text:#e8edf6; --muted:#9aa7bd; --accent:#4f8ef7;
+    --ns:#8a93a6; --ip:#f2b53d; --done:#3ecf8e; --cancel:#f26d6d;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:"Segoe UI",system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.55;}
+  .wrap{max-width:1000px; margin:0 auto; padding:2rem 1.25rem 4rem;}
+  header{padding:2.5rem 0 1.5rem; border-bottom:1px solid var(--line); margin-bottom:2rem;}
+  h1{font-size:1.9rem; letter-spacing:.5px;}
+  h1 .tag{color:var(--accent);}
+  .subtitle{color:var(--muted); margin-top:.4rem; font-size:1.05rem;}
+  .enduser{display:inline-flex; align-items:center; gap:.5rem; margin-top:1rem;
+    background:var(--card2); border:1px solid var(--line); border-radius:999px; padding:.4rem 1rem; font-size:.95rem;}
+  .enduser .dot{width:9px; height:9px; border-radius:50%; background:var(--done);}
+  h2{font-size:1.25rem; margin:2.2rem 0 .9rem; color:var(--accent);}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:1.25rem 1.4rem; margin-bottom:1rem;}
+  [contenteditable="true"]{outline:none; border-radius:6px; transition:background .15s;}
+  [contenteditable="true"]:hover{background:rgba(79,142,247,.08);}
+  [contenteditable="true"]:focus{background:rgba(79,142,247,.14); box-shadow:0 0 0 1px var(--accent);}
+  table{width:100%; border-collapse:collapse;}
+  th,td{padding:.65rem .7rem; text-align:left; border-bottom:1px solid var(--line); vertical-align:middle;}
+  th{color:var(--muted); font-weight:600; font-size:.85rem; text-transform:uppercase; letter-spacing:.06em;}
+  select.status{background:var(--card2); color:var(--text); border:1px solid var(--line); border-radius:8px; padding:.35rem .5rem; font-size:.9rem; cursor:pointer;}
+  select.status.ns{color:var(--ns); border-color:var(--ns);}
+  select.status.ip{color:var(--ip); border-color:var(--ip);}
+  select.status.done{color:var(--done); border-color:var(--done);}
+  select.status.cancel{color:var(--cancel); border-color:var(--cancel);}
+  .kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1rem;}
+  .kpi{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:1rem 1.1rem;}
+  .kpi label{display:block; color:var(--muted); font-size:.85rem; margin-bottom:.45rem;}
+  .kpi input{width:100%; background:var(--card2); border:1px solid var(--line); border-radius:8px;
+    color:var(--text); font-size:1.35rem; font-weight:600; padding:.45rem .6rem;}
+  .kpi input:focus{outline:none; border-color:var(--accent);}
+  .toolbar{display:flex; gap:.6rem; flex-wrap:wrap; margin:.8rem 0 0;}
+  button{background:var(--accent); color:#fff; border:none; border-radius:8px; padding:.5rem 1rem; font-size:.9rem; cursor:pointer;}
+  button.ghost{background:transparent; border:1px solid var(--line); color:var(--muted);}
+  button:hover{filter:brightness(1.12);}
+  .del{background:transparent; border:none; color:var(--cancel); cursor:pointer; font-size:1rem;}
+  .savebar{position:fixed; bottom:1rem; right:1rem; background:var(--card2); border:1px solid var(--line);
+    border-radius:10px; padding:.5rem .9rem; font-size:.85rem; color:var(--muted); opacity:0; transition:opacity .3s;}
+  .savebar.show{opacity:1;}
+  ul{padding-left:1.3rem;}
+  footer{margin-top:3rem; border-top:1px solid var(--line); padding-top:1.2rem; color:var(--muted); font-size:.85rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1><span class="tag">IMAP</span> — <span contenteditable="true" data-key="title">Intelligent Marketing &amp; Automation Program</span></h1>
+    <p class="subtitle" contenteditable="true" data-key="subtitle">B2B Strategy — Marketing Development Program</p>
+    <div class="enduser"><span class="dot"></span> End User: <strong contenteditable="true" data-key="enduser">Bandar Aldawood</strong></div>
+  </header>
+
+  <h2>Overview</h2>
+  <div class="card">
+    <p contenteditable="true" data-key="overview">
+      IMAP (Intelligent Marketing &amp; Automation Program) is the B2B strategy layer of the Marketing
+      Development Program. It combines marketing automation, data-driven campaign management, and
+      intelligent lead nurturing to accelerate commercial growth. Click any text on this page to edit it —
+      your changes are saved automatically in this browser.
+    </p>
+  </div>
+
+  <h2>Key Numbers</h2>
+  <div class="kpis" id="kpis">
+    <div class="kpi"><label contenteditable="true" data-key="kpi1l">Leads Generated</label><input type="number" data-key="kpi1" placeholder="0"></div>
+    <div class="kpi"><label contenteditable="true" data-key="kpi2l">Campaigns Launched</label><input type="number" data-key="kpi2" placeholder="0"></div>
+    <div class="kpi"><label contenteditable="true" data-key="kpi3l">Pipeline Value (SAR)</label><input type="number" data-key="kpi3" placeholder="0"></div>
+    <div class="kpi"><label contenteditable="true" data-key="kpi4l">Conversion Rate (%)</label><input type="number" data-key="kpi4" placeholder="0"></div>
+    <div class="kpi"><label contenteditable="true" data-key="kpi5l">Emails Sent</label><input type="number" data-key="kpi5" placeholder="0"></div>
+    <div class="kpi"><label contenteditable="true" data-key="kpi6l">Webinar Attendees</label><input type="number" data-key="kpi6" placeholder="0"></div>
+  </div>
+
+  <h2>Actions &amp; Initiatives</h2>
+  <div class="card">
+    <table id="actions">
+      <thead>
+        <tr><th style="width:45%">Action</th><th style="width:20%">Owner</th><th style="width:22%">Status</th><th style="width:8%">Number</th><th></th></tr>
+      </thead>
+      <tbody id="actionsBody"></tbody>
+    </table>
+    <div class="toolbar">
+      <button id="addRow">+ Add Action</button>
+      <button class="ghost" id="resetAll">Reset Page</button>
+    </div>
+  </div>
+
+  <h2>Notes</h2>
+  <div class="card">
+    <p contenteditable="true" data-key="notes">Add your notes here…</p>
+  </div>
+
+  <footer>
+    IMAP — Intelligent Marketing &amp; Automation Program · Part of the
+    <a href="../README.md" style="color:var(--accent)">Marketing Development Program</a> ·
+    All edits are stored locally in your browser (localStorage).
+  </footer>
+</div>
+
+<div class="savebar" id="savebar">✓ Saved</div>
+
+<script>
+(function(){
+  const STORE = "imap-page-v1";
+  const STATUSES = [
+    {v:"not-started", label:"Not Started", cls:"ns"},
+    {v:"in-progress", label:"In Progress", cls:"ip"},
+    {v:"completed",   label:"Completed",   cls:"done"},
+    {v:"canceled",    label:"Canceled",    cls:"cancel"}
+  ];
+  const DEFAULT_ROWS = [
+    {action:"Marketing automation platform setup", owner:"Bandar", status:"not-started", num:""},
+    {action:"Lead scoring & nurturing workflows",  owner:"Bandar", status:"not-started", num:""},
+    {action:"B2B campaign calendar (2026)",        owner:"Bandar", status:"not-started", num:""},
+    {action:"Distributor & partner program",       owner:"Bandar", status:"not-started", num:""},
+    {action:"Webinar series",                      owner:"Bandar", status:"not-started", num:""},
+    {action:"Always-ON email program",             owner:"Bandar", status:"not-started", num:""}
+  ];
+
+  let state = load();
+
+  function load(){
+    try{ return JSON.parse(localStorage.getItem(STORE)) || {texts:{}, rows:DEFAULT_ROWS.map(r=>({...r}))}; }
+    catch(e){ return {texts:{}, rows:DEFAULT_ROWS.map(r=>({...r}))}; }
+  }
+  function save(){
+    localStorage.setItem(STORE, JSON.stringify(state));
+    const bar = document.getElementById("savebar");
+    bar.classList.add("show");
+    clearTimeout(save._t); save._t = setTimeout(()=>bar.classList.remove("show"), 1200);
+  }
+
+  // Editable texts & KPI numbers
+  document.querySelectorAll("[data-key]").forEach(el=>{
+    const k = el.dataset.key;
+    if(el.tagName === "INPUT"){
+      if(state.texts[k] !== undefined) el.value = state.texts[k];
+      el.addEventListener("input", ()=>{ state.texts[k] = el.value; save(); });
+    } else {
+      if(state.texts[k] !== undefined) el.innerHTML = state.texts[k];
+      el.addEventListener("input", ()=>{ state.texts[k] = el.innerHTML; save(); });
+    }
+  });
+
+  // Actions table
+  const body = document.getElementById("actionsBody");
+  function render(){
+    body.innerHTML = "";
+    state.rows.forEach((row,i)=>{
+      const tr = document.createElement("tr");
+
+      const tdA = document.createElement("td");
+      tdA.contentEditable = "true"; tdA.textContent = row.action;
+      tdA.addEventListener("input", ()=>{ row.action = tdA.textContent; save(); });
+
+      const tdO = document.createElement("td");
+      tdO.contentEditable = "true"; tdO.textContent = row.owner;
+      tdO.addEventListener("input", ()=>{ row.owner = tdO.textContent; save(); });
+
+      const tdS = document.createElement("td");
+      const sel = document.createElement("select"); sel.className = "status";
+      STATUSES.forEach(s=>{
+        const o = document.createElement("option");
+        o.value = s.v; o.textContent = s.label;
+        if(row.status === s.v) o.selected = true;
+        sel.appendChild(o);
+      });
+      function paint(){ sel.className = "status " + STATUSES.find(s=>s.v===sel.value).cls; }
+      paint();
+      sel.addEventListener("change", ()=>{ row.status = sel.value; paint(); save(); });
+      tdS.appendChild(sel);
+
+      const tdN = document.createElement("td");
+      const num = document.createElement("input");
+      num.type = "number"; num.value = row.num; num.placeholder = "0";
+      num.style.cssText = "width:80px; background:var(--card2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:.3rem .4rem;";
+      num.addEventListener("input", ()=>{ row.num = num.value; save(); });
+      tdN.appendChild(num);
+
+      const tdX = document.createElement("td");
+      const del = document.createElement("button");
+      del.className = "del"; del.title = "Delete row"; del.textContent = "✕";
+      del.addEventListener("click", ()=>{ state.rows.splice(i,1); save(); render(); });
+      tdX.appendChild(del);
+
+      tr.append(tdA, tdO, tdS, tdN, tdX);
+      body.appendChild(tr);
+    });
+  }
+  render();
+
+  document.getElementById("addRow").addEventListener("click", ()=>{
+    state.rows.push({action:"New action…", owner:"", status:"not-started", num:""});
+    save(); render();
+  });
+  document.getElementById("resetAll").addEventListener("click", ()=>{
+    if(confirm("Reset the whole page to defaults? All your edits will be lost.")){
+      localStorage.removeItem(STORE);
+      location.reload();
+    }
+  });
+})();
+</script>
+</body>
+</html>
