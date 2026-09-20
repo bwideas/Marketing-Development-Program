@@ -1,9 +1,9 @@
 # Webinar 3: Reliable Wastewater Systems
 
-**Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation**
+**Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation**
 
 ## Event details
-- **Date:** 07.10.2026
+- **Date:** 20.10.2026
 - **Time:** 13:00–15:00 Saudi Arabia Time
 - **Platform:** Microsoft Teams
 - **CPD:** 2 certified hours

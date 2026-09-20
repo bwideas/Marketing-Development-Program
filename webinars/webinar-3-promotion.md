@@ -19,7 +19,7 @@ Passcode: [to be added]
 I'm also sharing this with the team for their review. If there are any updates or suggested changes, please feel free to mention them.
 
 **Webinar title: Not finalized yet**
-Reliable Wastewater Systems: Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation
+Reliable Wastewater Systems: Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation
 
 **What you will learn:**
 This webinar is CPD-certified through Grundfos Holding A/S.
@@ -47,12 +47,16 @@ Register now to secure your spot. We look forward to seeing you at the webinar.
 
 | # | Asset | Channel | Publish date | Purpose |
 | --- | --- | --- | --- | --- |
-| 1 | Visual 1 + Post 1 + Email 1 | LinkedIn + Email | 16.09.2026 | Announcement |
-| 2 | Visual 2 + Post 2 + Email 2 | LinkedIn + Email | 30.09.2026 | Speaker spotlight |
-| 3 | Visual 3 + Post 3 + Email 3 | LinkedIn + Email | 05.10.2026 | Final reminder |
-| 4 | Thank-you post | LinkedIn | 08–09.10.2026 | Follow-up |
+| 1 | Post 1 + Email 1 + WhatsApp 1 | LinkedIn + Email + WhatsApp | 08.10.2026 (T-12) | Topic & business value |
+| 2 | Post 2 + WhatsApp 2 | LinkedIn + WhatsApp | 13.10.2026 (T-7) | Speaker highlight |
+| 3 | Email 2 | Email | 14.10.2026 (T-6) | Speaker highlight |
+| 4 | Post 3 + WhatsApp 3 | LinkedIn + WhatsApp | 16.10.2026 (T-4) | Reminder |
+| 5 | Email 3 | Email | 17.10.2026 (T-3) | Reminder & final call |
+| 6 | Post 4 + WhatsApp 4 | LinkedIn + WhatsApp | 18.10.2026 (T-2) | Final call |
+| 7 | WhatsApp 5 | WhatsApp | 19.10.2026 (T-1) | Webinar reminder |
+| 8 | Thank-you email + recording + follow-up | Email + WhatsApp + LinkedIn | 21.10.2026 | Post-webinar & MQL creation |
 
-Webinar date: 07.10.2026 | 13:00–15:00 (KSA Time) | Microsoft Teams | 2 CPD Hours
+Webinar date: 20.10.2026 | 13:00–15:00 (KSA Time) | Microsoft Teams | 2 CPD Hours
 
 The full posts and email copy for each stage are available in the campaign sections below.
 
@@ -64,9 +68,9 @@ Bandar
 **Topic:** Wastewater
 **Recommended header (label):** CPD Webinar
 **Recommended title:** Reliable Wastewater Systems
-**Recommended subtitle:** Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation.
+**Recommended subtitle:** Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation.
 
-- **Date:** 07.10.2026 (Wednesday)
+- **Date:** 20.10.2026 (Tuesday)
 - **Time:** 13:00–15:00 (KSA Time)
 - **Platform:** Microsoft Teams
 - **CPD:** 2 certified hours (The CPD Certification Service, via Grundfos Holding A/S)
@@ -78,7 +82,7 @@ Bandar
 ## 0. Registration Content — Finalized Format (matches Webinar 1 registration email)
 
 **Webinar title:**
-Reliable Wastewater Systems: Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation
+Reliable Wastewater Systems: Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation
 
 **What you will learn:**
 This webinar is CPD-certified through Grundfos Holding A/S.
@@ -109,16 +113,45 @@ Register now to secure your spot. We look forward to seeing you at the webinar.
 
 ---
 
-## 1. Campaign Calendar (organize & action)
+## 1. Campaign Calendar — Promotional & Advocacy Plan (per guidelines, webinar 20.10.2026)
 
-| # | Asset | Channel | Publish date | Purpose |
-| --- | --- | --- | --- | --- |
-| 1 | Visual 1 + Post 1 + Email 1 | LinkedIn + Email | 16.09.2026 (3 weeks out) | Announcement — problem-led awareness |
-| 2 | Visual 2 + Post 2 + Email 2 | LinkedIn + Email | 30.09.2026 (1 week out) | Speaker spotlight — credibility |
-| 3 | Visual 3 + Post 3 + Email 3 | LinkedIn + Email | 05.10.2026 (2 days out) | Final reminder — urgency |
-| 4 | Thank-you post | LinkedIn | 08–09.10.2026 | Follow-up + Webinar 4 teaser |
+### Email (Marketo — 3 touchpoints)*
+| Touchpoint | Date | Content |
+| --- | --- | --- |
+| T-12 days | 08.10.2026 | Topic & business value (Email 1) |
+| T-6 days | 14.10.2026 | Speaker highlight (Email 2) |
+| T-3 days | 17.10.2026 | Reminder & final call (Email 3) |
 
-**UTM convention:** `utm_source=linkedin/email`, `utm_medium=paid_social/webinar/newsletter`, `utm_campaign=p2_webinar3_wastewater`, `utm_content=post1/post2/post3/email1/email2/email3`
+*Excluding Marketo automation webinar email for the registration.
+
+### Social Media (Sprinklr & Social share — 4 posts)
+| Touchpoint | Date | Content |
+| --- | --- | --- |
+| T-12 days | 08.10.2026 | Topic & business value (Post 1) |
+| T-7 days | 13.10.2026 | Speaker highlight (Post 2) |
+| T-4 days | 16.10.2026 | Reminder (Post 3) |
+| T-2 days | 18.10.2026 | Final call (Post 4) |
+
+### WhatsApp Broadcast (5 messages)
+| Touchpoint | Date | Content |
+| --- | --- | --- |
+| T-12 days | 08.10.2026 | Topic & business value |
+| T-7 days | 13.10.2026 | Speaker highlight |
+| T-4 days | 16.10.2026 | Reminder |
+| T-2 days | 18.10.2026 | Final call |
+| T-1 day | 19.10.2026 | Webinar reminder |
+
+### Advocacy actions
+- Sales & Sales Development teams to extend webinar visibility by sharing invitations through emails and WhatsApp messages
+- Involve channel partners and their sales teams to promote the webinar externally to their customer contacts
+- Create WhatsApp broadcast group including customers & channel partner sales teams to share the promotions
+
+### Post-webinar activities (from 21.10.2026)
+- Thank-you email (attended & no-show)
+- Share recording after the webinar (email / WhatsApp where applicable)
+- Sales follow-up alignment on interest & enquiries from the webinar — creation of MQLs
+
+**UTM convention:** `utm_source=linkedin/email/whatsapp`, `utm_medium=paid_social/webinar/newsletter`, `utm_campaign=p2_webinar3_wastewater`, `utm_content=post1-4/email1-3/wa1-5`
 
 ---
 
@@ -130,8 +163,8 @@ Dark commercial-building photography background (low-angle skyscraper shot, dusk
 Text on visual:
 - Label (small, white): **CPD Webinar**
 - Title (large, sand/gold): **Reliable Wastewater Systems**
-- Subtitle (white): **Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation.**
-- 📅 icon + **07.10.2026**
+- Subtitle (white): **Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation.**
+- 📅 icon + **20.10.2026**
 - 🕐 icon + **13:00 - 15:00 (KSA Time)**
 - Logo: **GRUNDFOS** (white, bottom-right)
 
@@ -141,7 +174,7 @@ Split layout: left = building photo with **CPD Certification Service logo** over
 Text on visual:
 - Speaker name bar: **Marwan Rabie** / **[Job Title — to confirm], Grundfos**
 - Title (navy, large): **Reliable Wastewater Systems**
-- **07.10.2026**
+- **20.10.2026**
 - **13:00 - 15:00 (KSA Time)**
 - CPD logo: The CPD Certification Service
 - Logo: **GRUNDFOS** (navy, bottom-right)
@@ -157,7 +190,7 @@ Same as Visual 1 with an added urgency banner:
 
 ## 3. Social Media Posts (LinkedIn)
 
-### Post 1 — Announcement (16.09.2026)
+### Post 1 — Topic & business value (08.10.2026, T-12)
 
 Your building's wastewater system is out of sight — until it fails. Is yours designed for reliability?
 
@@ -173,11 +206,11 @@ In this session, we'll cover:
 
 Don't miss this opportunity to gain valuable insights into the wastewater pumping strategies that keep commercial buildings safe, hygienic, and efficient.
 
-Secure your place on 7 October 2026, 13:00–15:00 KSA Time
+Secure your place on 20 October 2026, 13:00–15:00 KSA Time
 
 Register here: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
-### Post 2 — Speaker spotlight (30.09.2026)
+### Post 2 — Speaker highlight (13.10.2026, T-7)
 
 Curious about what separates a reliable wastewater system from a costly liability?
 
@@ -193,13 +226,13 @@ What you'll learn:
 
 Whether you are designing a new facility or upgrading an existing installation, this session will provide practical insights to help you make smarter wastewater decisions.
 
-📅 7 October 2026 | 13:00–15:00 KSA Time | Microsoft Teams | 2 CPD Hours
+📅 20 October 2026 | 13:00–15:00 KSA Time | Microsoft Teams | 2 CPD Hours
 
 Register here: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
-### Post 3 — Final reminder (05.10.2026)
+### Post 3 — Reminder (16.10.2026, T-4)
 
-Final Reminder: We're going live this Wednesday, 7 October 2026 (13:00–15:00 KSA).
+Final Reminder: We're going live this Tuesday, 20 October 2026 (13:00–15:00 KSA).
 
 Drainage and sewage systems are the hidden backbone of every major commercial building — but most only get attention after something goes wrong.
 
@@ -215,11 +248,51 @@ Join our CPD webinar on Microsoft Teams where Marwan Rabie — [Job Title], Grun
 
 Reserve your seat: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
+### Post 4 — Final call (18.10.2026, T-2)
+
+Final Call: Only 2 days left! ⏳
+
+This Tuesday, 20 October 2026 (13:00–15:00 KSA), join our CPD-certified webinar on Reliable Wastewater Systems — smart drainage and sewage pump strategies for safe and efficient commercial building operation.
+
+🎓 2 CPD hours | 💻 Microsoft Teams | Speaker: Marwan Rabie, Grundfos
+
+Don't miss your last chance to register: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
+
+---
+
+## 3b. WhatsApp Broadcast Messages (5 messages)
+
+### WhatsApp 1 — Topic & business value (08.10.2026, T-12)
+🔵 *Grundfos CPD Webinar — Reliable Wastewater Systems*
+Smart drainage & sewage pump strategies for safe, efficient commercial buildings.
+📅 20 Oct 2026 | 🕐 13:00–15:00 KSA | 💻 Microsoft Teams | 🎓 2 CPD hours
+Register: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
+
+### WhatsApp 2 — Speaker highlight (13.10.2026, T-7)
+🎤 Meet the speaker: *Marwan Rabie, Grundfos* will share practical insights on sewage pump sizing, anti-clog technology & duty/standby configurations.
+Free CPD webinar — 20 Oct, 13:00 KSA.
+Register: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
+
+### WhatsApp 3 — Reminder (16.10.2026, T-4)
+⏰ 4 days to go! Reliable Wastewater Systems CPD webinar — learn how the right pump selection prevents blockages, overflows & downtime.
+📅 20 Oct | 13:00–15:00 KSA | 2 CPD hours
+Register: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
+
+### WhatsApp 4 — Final call (18.10.2026, T-2)
+🔔 Final call — 2 days left! Secure your seat for our CPD webinar on wastewater systems for commercial buildings.
+📅 Tuesday 20 Oct | 13:00 KSA | Microsoft Teams
+Register: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
+
+### WhatsApp 5 — Webinar reminder (19.10.2026, T-1)
+📢 Tomorrow at 13:00 KSA! Reliable Wastewater Systems CPD webinar goes live on Microsoft Teams.
+Meeting ID: 313 851 722 686 428
+Join: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
+
 ---
 
 ## 4. Emails (mirroring each post)
 
-### Email 1 — Announcement (send 16.09.2026)
+### Email 1 — Topic & business value (send 08.10.2026, T-12)
 
 **Subject:** [CPD Webinar] Reliable Wastewater Systems — Is Your Building Protected?
 **Preheader:** Smart drainage and sewage pump selection for commercial buildings in Saudi Arabia. 2 CPD hours, free on Microsoft Teams.
@@ -236,14 +309,14 @@ Join our CPD-certified webinar to discover how smart drainage design and correct
 - Sewage pump selection — sizing, solids handling, and anti-clog impeller technology
 - Duty/standby configurations, level controls, and protection strategies
 
-**📅 7 October 2026 | 🕐 13:00–15:00 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
+**📅 20 October 2026 | 🕐 13:00–15:00 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
 
 **[Register Now →]** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 Best regards,
 Grundfos Saudi Arabia
 
-### Email 2 — Speaker spotlight (send 30.09.2026)
+### Email 2 — Speaker highlight (send 14.10.2026, T-6)
 
 **Subject:** Meet Your Speaker: Marwan Rabie on Reliable Wastewater Systems
 **Preheader:** Practical sewage pump selection insights from a Grundfos wastewater expert. Earn 2 CPD hours.
@@ -262,21 +335,21 @@ Join our upcoming CPD webinar featuring **Marwan Rabie**, an experienced wastewa
 
 Whether you are designing a new facility or upgrading an existing installation, this session provides practical insights for smarter wastewater decisions.
 
-**📅 7 October 2026 | 🕐 13:00–15:00 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
+**📅 20 October 2026 | 🕐 13:00–15:00 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
 
 **[Register Now →]** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 Best regards,
 Grundfos Saudi Arabia
 
-### Email 3 — Final reminder (send 05.10.2026)
+### Email 3 — Reminder & final call (send 17.10.2026, T-3)
 
-**Subject:** Final Reminder: Wastewater Systems Webinar Goes Live this Wednesday
-**Preheader:** Last chance to register — 7 October, 13:00 KSA. 2 CPD hours on Microsoft Teams.
+**Subject:** Final Reminder: Wastewater Systems Webinar Goes Live this Tuesday
+**Preheader:** Last chance to register — 20 October, 13:00 KSA. 2 CPD hours on Microsoft Teams.
 
 Dear [First Name],
 
-We're going live this Wednesday, **7 October 2026 (13:00–15:00 KSA)**.
+We're going live this Tuesday, **20 October 2026 (13:00–15:00 KSA)**.
 
 Drainage and sewage systems are the hidden backbone of every major commercial building — but most only get attention after something goes wrong. The culprit is often in the pump selection: undersized units, wrong impeller technology, or missing controls quietly adding up to blockages, overflows, and premature failures.
 
@@ -294,7 +367,7 @@ Grundfos Saudi Arabia
 
 ---
 
-## 5. Follow-up Post (08–09.10.2026)
+## 5. Follow-up Post (21.10.2026)
 
 Thank you to everyone who joined our CPD webinar on Reliable Wastewater Systems! 🙏
 
@@ -319,5 +392,5 @@ Missed it? Stay tuned — the next webinar in our series is coming soon.
 - [ ] Confirm Marwan Rabie's exact job title
 - [ ] Marwan Rabie's professional photo (for Visual 2)
 - [x] Create Teams event → registration link (short gfos.ly links per asset still pending)
-- [ ] Confirm 07.10.2026 (Wednesday)
+- [ ] Confirm 20.10.2026 (Tuesday)
 - [x] Send briefs + this copy to the designer
