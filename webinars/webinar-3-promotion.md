@@ -10,9 +10,9 @@ Thank you for the note.
 
 Please find below the finalized Webinar 3 registration content along with the social media and email plan. Teams meeting details will follow once the event is created, for inclusion in the confirmation emails.
 
-Meeting join link: [to be added]
+Meeting join link: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
-Meeting ID: [to be added]
+Meeting ID: 313 851 722 686 428
 
 Passcode: [to be added]
 
@@ -71,7 +71,7 @@ Bandar
 - **Platform:** Microsoft Teams
 - **CPD:** 2 certified hours (The CPD Certification Service, via Grundfos Holding A/S)
 - **Speaker:** Marwan Rabie — [Job Title, Grundfos — to confirm]
-- **Registration link:** [to be added — use short link gfos.ly/… like Webinar 1]
+- **Registration link:** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li (create gfos.ly short links per asset)
 
 ---
 
@@ -103,8 +103,8 @@ Understand the role of intelligent controls, monitoring, backflow prevention, an
 Register now to secure your spot. We look forward to seeing you at the webinar.
 
 **Teams meeting details (for confirmation emails — to be created for Webinar 3):**
-- Meeting join link: [to be added]
-- Meeting ID: [to be added]
+- Meeting join link: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
+- Meeting ID: 313 851 722 686 428
 - Passcode: [to be added]
 
 ---
@@ -175,7 +175,7 @@ Don't miss this opportunity to gain valuable insights into the wastewater pumpin
 
 Secure your place on 7 October 2026, 13:00–15:00 KSA Time
 
-Register here: [registration link]
+Register here: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 ### Post 2 — Speaker spotlight (30.09.2026)
 
@@ -195,7 +195,7 @@ Whether you are designing a new facility or upgrading an existing installation, 
 
 📅 7 October 2026 | 13:00–15:00 KSA Time | Microsoft Teams | 2 CPD Hours
 
-Register here: [registration link]
+Register here: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 ### Post 3 — Final reminder (05.10.2026)
 
@@ -213,7 +213,7 @@ Join our CPD webinar on Microsoft Teams where Marwan Rabie — [Job Title], Grun
 • The ability to prevent clogging and overflow risks before they cost you
 • Practical knowledge on controls and configurations that keep buildings running safely
 
-Reserve your seat: [registration link]
+Reserve your seat: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 ---
 
@@ -238,7 +238,7 @@ Join our CPD-certified webinar to discover how smart drainage design and correct
 
 **📅 7 October 2026 | 🕐 13:00–15:00 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
 
-**[Register Now →]** [registration link]
+**[Register Now →]** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 Best regards,
 Grundfos Saudi Arabia
@@ -264,7 +264,7 @@ Whether you are designing a new facility or upgrading an existing installation, 
 
 **📅 7 October 2026 | 🕐 13:00–15:00 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
 
-**[Register Now →]** [registration link]
+**[Register Now →]** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 Best regards,
 Grundfos Saudi Arabia
@@ -287,7 +287,7 @@ Join Marwan Rabie — [Job Title], Grundfos — as he breaks down where wastewat
 - The ability to prevent clogging and overflow risks before they cost you
 - Practical knowledge on controls and configurations for safe, uninterrupted operation
 
-**[Reserve Your Seat →]** [registration link]
+**[Reserve Your Seat →]** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 See you online,
 Grundfos Saudi Arabia
@@ -318,6 +318,6 @@ Missed it? Stay tuned — the next webinar in our series is coming soon.
 
 - [ ] Confirm Marwan Rabie's exact job title
 - [ ] Marwan Rabie's professional photo (for Visual 2)
-- [ ] Create Teams event → registration link (+ short links per asset, gfos.ly style)
+- [x] Create Teams event → registration link (short gfos.ly links per asset still pending)
 - [ ] Confirm 07.10.2026 (Wednesday)
 - [x] Send briefs + this copy to the designer

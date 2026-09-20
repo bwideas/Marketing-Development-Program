@@ -7,7 +7,7 @@
 - **Time:** 13:00–15:00 Saudi Arabia Time
 - **Platform:** Microsoft Teams
 - **CPD:** 2 certified hours
-- **Registration:** [Registration link — to be added when the Teams event is created]
+- **Registration:** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 ## Description
 This webinar is CPD-certified through Grundfos Holding A/S.
