@@ -1,5 +1,66 @@
 # Webinar 3 — Full Promotional Campaign
 
+---
+
+## Email to Gopinath — Webinar 3 registration content + social media & email plan
+
+Hi Gopinath,
+
+Thank you for the note.
+
+Please find below the finalized Webinar 3 registration content along with the social media and email plan. Teams meeting details will follow once the event is created, for inclusion in the confirmation emails.
+
+Meeting join link: [to be added]
+
+Meeting ID: [to be added]
+
+Passcode: [to be added]
+
+I'm also sharing this with the team for their review. If there are any updates or suggested changes, please feel free to mention them.
+
+**Webinar title: Not finalized yet**
+Reliable Wastewater Systems: Smart Drainage and Sewage Pump Selection for Safe and Efficient Commercial Building Operation
+
+**What you will learn:**
+This webinar is CPD-certified through Grundfos Holding A/S.
+
+**In our webinar:**
+We'll explore how drainage and sewage systems play a critical role in delivering safe, hygienic, and reliable operation in commercial buildings.
+
+Our speakers **Marwan Rabie, [Job Title], Grundfos**, and **Ezz Mamdouh, [Job Title], Grundfos**, will share practical insights into how smart drainage design and correct sewage pump selection support stronger operational safety, better system reliability, and long-term lifecycle value, including:
+
+**• Drainage and sewage system fundamentals and system configurations**
+Understand the fundamentals of wastewater systems in commercial buildings, including collection pits, lifting stations, and discharge pipework, and how correct system design supports safe and efficient building operation.
+
+**• Sewage pump sizing and solids handling**
+Learn how flow, head, and solids content impact pump selection and system performance, and understand the causes and operational impact of clogging and blockages in commercial wastewater systems.
+
+**• Pump configurations and level control**
+Gain practical insight into duty/standby and duty/assist pump arrangements, and learn why correct level control and anti-clog impeller selection are essential for reliable operation, reduced downtime, and system protection.
+
+**• Monitoring, backflow prevention, and long-term system reliability**
+Understand the role of intelligent controls, monitoring, backflow prevention, and planned maintenance in protecting building hygiene, preventing overflows, and supporting long-term wastewater system reliability.
+
+Register now to secure your spot. We look forward to seeing you at the webinar.
+
+**Social media and email plan:**
+
+| # | Asset | Channel | Publish date | Purpose |
+| --- | --- | --- | --- | --- |
+| 1 | Visual 1 + Post 1 + Email 1 | LinkedIn + Email | 16.09.2026 | Announcement |
+| 2 | Visual 2 + Post 2 + Email 2 | LinkedIn + Email | 30.09.2026 | Speaker spotlight |
+| 3 | Visual 3 + Post 3 + Email 3 | LinkedIn + Email | 05.10.2026 | Final reminder |
+| 4 | Thank-you post | LinkedIn | 08–09.10.2026 | Follow-up |
+
+Webinar date: 07.10.2026 | 13:00–15:00 (KSA Time) | Microsoft Teams | 2 CPD Hours
+
+The full posts and email copy for each stage are available in the campaign sections below.
+
+Best regards,
+Bandar
+
+---
+
 **Topic:** Wastewater
 **Recommended header (label):** CPD Webinar
 **Recommended title:** Reliable Wastewater Systems
