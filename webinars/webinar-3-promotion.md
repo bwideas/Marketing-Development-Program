@@ -8,7 +8,9 @@ Hi Gopinath,
 
 Thank you for the note.
 
-Please find below the finalized Webinar 3 registration content along with the social media and email plan. Teams meeting details will follow once the event is created, for inclusion in the confirmation emails.
+Please note the webinar date has been updated to **Tuesday, 20 October 2026 (13:00–15:00 KSA Time)**.
+
+Please find below the finalized Webinar 3 registration content along with the Teams meeting details for inclusion in the confirmation emails, followed by the promotional & advocacy plan.
 
 Meeting join link: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
@@ -18,7 +20,7 @@ Passcode: [to be added]
 
 I'm also sharing this with the team for their review. If there are any updates or suggested changes, please feel free to mention them.
 
-**Webinar title: Not finalized yet**
+**Webinar title:**
 Reliable Wastewater Systems: Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation
 
 **What you will learn:**
@@ -43,22 +45,39 @@ Understand the role of intelligent controls, monitoring, backflow prevention, an
 
 Register now to secure your spot. We look forward to seeing you at the webinar.
 
-**Social media and email plan:**
+**Promotional & advocacy plan (per guidelines):**
 
-| # | Asset | Channel | Publish date | Purpose |
-| --- | --- | --- | --- | --- |
-| 1 | Post 1 + Email 1 + WhatsApp 1 | LinkedIn + Email + WhatsApp | 08.10.2026 (T-12) | Topic & business value |
-| 2 | Post 2 + WhatsApp 2 | LinkedIn + WhatsApp | 13.10.2026 (T-7) | Speaker highlight |
-| 3 | Email 2 | Email | 14.10.2026 (T-6) | Speaker highlight |
-| 4 | Post 3 + WhatsApp 3 | LinkedIn + WhatsApp | 16.10.2026 (T-4) | Reminder |
-| 5 | Email 3 | Email | 17.10.2026 (T-3) | Reminder & final call |
-| 6 | Post 4 + WhatsApp 4 | LinkedIn + WhatsApp | 18.10.2026 (T-2) | Final call |
-| 7 | WhatsApp 5 | WhatsApp | 19.10.2026 (T-1) | Webinar reminder |
-| 8 | Thank-you email + recording + follow-up | Email + WhatsApp + LinkedIn | 21.10.2026 | Post-webinar & MQL creation |
+*Email (Marketo — 3 touchpoints, excluding the automation registration email):*
+- T-12 days (08.10.2026): Topic & business value
+- T-6 days (14.10.2026): Speaker highlight
+- T-3 days (17.10.2026): Reminder & final call
 
-Webinar date: 20.10.2026 | 13:00–15:00 (KSA Time) | Microsoft Teams | 2 CPD Hours
+*Social media (Sprinklr & Social share — 4 posts):*
+- T-12 days (08.10.2026): Topic & business value
+- T-7 days (13.10.2026): Speaker highlight
+- T-4 days (16.10.2026): Reminder
+- T-2 days (18.10.2026): Final call
 
-The full posts and email copy for each stage are available in the campaign sections below.
+*WhatsApp broadcast (5 messages):*
+- T-12 days (08.10.2026): Topic & business value
+- T-7 days (13.10.2026): Speaker highlight
+- T-4 days (16.10.2026): Reminder
+- T-2 days (18.10.2026): Final call
+- T-1 day (19.10.2026): Webinar reminder
+
+*Advocacy:*
+- Sales & Sales Development teams to extend webinar visibility by sharing invitations through emails and WhatsApp messages
+- Involve channel partners and their sales teams to promote the webinar externally to their customer contacts
+- Create WhatsApp broadcast group including customers & channel partner sales teams to share the promotions
+
+*Post-webinar activities (from 21.10.2026):*
+- Thank-you email (attended & no-show)
+- Share recording after the webinar (email / WhatsApp where applicable)
+- Sales follow-up alignment on interest & enquiries from the webinar — creation of MQLs
+
+Webinar date: Tuesday, 20.10.2026 | 13:00–15:00 (KSA Time) | Microsoft Teams | 2 CPD Hours
+
+The full posts, emails, and WhatsApp copy for each stage are available in the campaign sections below.
 
 Best regards,
 Bandar
