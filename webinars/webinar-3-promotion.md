@@ -8,7 +8,7 @@ Hi Gopinath,
 
 Thank you for the note.
 
-Please note the webinar date has been updated to **Tuesday, 20 October 2026 (13:00–15:00 KSA Time)**.
+Please note the webinar date has been updated to **Tuesday, 20 October 2026 (13:00–14:20 KSA Time)**.
 
 Please find below the finalized Webinar 3 registration content along with the Teams meeting details for inclusion in the confirmation emails, followed by the promotional & advocacy plan.
 
@@ -75,7 +75,7 @@ Register now to secure your spot. We look forward to seeing you at the webinar.
 - Share recording after the webinar (email / WhatsApp where applicable)
 - Sales follow-up alignment on interest & enquiries from the webinar — creation of MQLs
 
-Webinar date: Tuesday, 20.10.2026 | 13:00–15:00 (KSA Time) | Microsoft Teams | 2 CPD Hours
+Webinar date: Tuesday, 20.10.2026 | 13:00–14:20 (KSA Time) | Microsoft Teams | 2 CPD Hours
 
 The full posts, emails, and WhatsApp copy for each stage are available in the campaign sections below.
 
@@ -90,7 +90,7 @@ Bandar
 **Recommended subtitle:** Smart Drainage and Sewage Pumps for Safe and Efficient Commercial Building Operation.
 
 - **Date:** 20.10.2026 (Tuesday)
-- **Time:** 13:00–15:00 (KSA Time)
+- **Time:** 13:00–14:20 (KSA Time)
 - **Duration:** 1 hour 20 minutes
 - **Platform:** Microsoft Teams
 - **CPD:** 2 certified hours (The CPD Certification Service, via Grundfos Holding A/S)
@@ -185,7 +185,7 @@ Text on visual:
 - Title (large, sand/gold): **Reliable Wastewater Systems**
 - Subtitle (white): **Smart Drainage and Sewage Pumps for Safe and Efficient Commercial Building Operation.**
 - 📅 icon + **20.10.2026**
-- 🕐 icon + **13:00 - 15:00 (KSA Time)**
+- 🕐 icon + **13:00 - 14:20 (KSA Time)**
 - Logo: **GRUNDFOS** (white, bottom-right)
 
 ### Visual 2 — Speaker card (matches Webinar 1 "OP2" layout)
@@ -195,7 +195,7 @@ Text on visual:
 - Speaker name bar: **Marwan Rabie** / **[Job Title — to confirm], Grundfos**
 - Title (navy, large): **Reliable Wastewater Systems**
 - **20.10.2026**
-- **13:00 - 15:00 (KSA Time)**
+- **13:00 - 14:20 (KSA Time)**
 - CPD logo: The CPD Certification Service
 - Logo: **GRUNDFOS** (navy, bottom-right)
 - *Need from you:* Marwan Rabie's professional photo + exact job title
@@ -226,7 +226,7 @@ In this session, we'll cover:
 
 Don't miss this opportunity to gain valuable insights into the wastewater pumping strategies that keep commercial buildings safe, hygienic, and efficient.
 
-Secure your place on 20 October 2026, 13:00–15:00 KSA Time
+Secure your place on 20 October 2026, 13:00–14:20 KSA Time
 
 Register here: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
@@ -246,13 +246,13 @@ What you'll learn:
 
 Whether you are designing a new facility or upgrading an existing installation, this session will provide practical insights to help you make smarter wastewater decisions.
 
-📅 20 October 2026 | 13:00–15:00 KSA Time | Microsoft Teams | 2 CPD Hours
+📅 20 October 2026 | 13:00–14:20 KSA Time | Microsoft Teams | 2 CPD Hours
 
 Register here: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 ### Post 3 — Reminder (16.10.2026, T-4)
 
-Final Reminder: We're going live this Tuesday, 20 October 2026 (13:00–15:00 KSA).
+Final Reminder: We're going live this Tuesday, 20 October 2026 (13:00–14:20 KSA).
 
 Drainage and sewage systems are the hidden backbone of every major commercial building — but most only get attention after something goes wrong.
 
@@ -272,7 +272,7 @@ Reserve your seat: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ
 
 Final Call: Only 2 days left! ⏳
 
-This Tuesday, 20 October 2026 (13:00–15:00 KSA), join our CPD-certified webinar on Reliable Wastewater Systems — smart drainage and sewage pump strategies for safe and efficient commercial building operation.
+This Tuesday, 20 October 2026 (13:00–14:20 KSA), join our CPD-certified webinar on Reliable Wastewater Systems — smart drainage and sewage pump strategies for safe and efficient commercial building operation.
 
 🎓 2 CPD hours | 💻 Microsoft Teams | Speaker: Marwan Rabie, Grundfos
 
@@ -285,7 +285,7 @@ Don't miss your last chance to register: https://teams.microsoft.com/meet/313851
 ### WhatsApp 1 — Topic & business value (08.10.2026, T-12)
 🔵 *Grundfos CPD Webinar — Reliable Wastewater Systems*
 Smart drainage & sewage pump strategies for safe, efficient commercial buildings.
-📅 20 Oct 2026 | 🕐 13:00–15:00 KSA | 💻 Microsoft Teams | 🎓 2 CPD hours
+📅 20 Oct 2026 | 🕐 13:00–14:20 KSA | 💻 Microsoft Teams | 🎓 2 CPD hours
 Register: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 ### WhatsApp 2 — Speaker highlight (13.10.2026, T-7)
@@ -295,7 +295,7 @@ Register: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 ### WhatsApp 3 — Reminder (16.10.2026, T-4)
 ⏰ 4 days to go! Reliable Wastewater Systems CPD webinar — learn how the right pump selection prevents blockages, overflows & downtime.
-📅 20 Oct | 13:00–15:00 KSA | 2 CPD hours
+📅 20 Oct | 13:00–14:20 KSA | 2 CPD hours
 Register: https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
 ### WhatsApp 4 — Final call (18.10.2026, T-2)
@@ -329,7 +329,7 @@ Join our CPD-certified webinar to discover how smart drainage design and correct
 - Sewage pump selection — sizing, solids handling, and anti-clog impeller technology
 - Duty/standby configurations, level controls, and protection strategies
 
-**📅 20 October 2026 | 🕐 13:00–15:00 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
+**📅 20 October 2026 | 🕐 13:00–14:20 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
 
 **[Register Now →]** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
@@ -355,7 +355,7 @@ Join our upcoming CPD webinar featuring **Marwan Rabie**, an experienced wastewa
 
 Whether you are designing a new facility or upgrading an existing installation, this session provides practical insights for smarter wastewater decisions.
 
-**📅 20 October 2026 | 🕐 13:00–15:00 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
+**📅 20 October 2026 | 🕐 13:00–14:20 KSA Time | 💻 Microsoft Teams | 🎓 2 CPD Hours**
 
 **[Register Now →]** https://teams.microsoft.com/meet/313851722686428?p=I375YmfspJ48zXa5Li
 
@@ -369,7 +369,7 @@ Grundfos Saudi Arabia
 
 Dear [First Name],
 
-We're going live this Tuesday, **20 October 2026 (13:00–15:00 KSA)**.
+We're going live this Tuesday, **20 October 2026 (13:00–14:20 KSA)**.
 
 Drainage and sewage systems are the hidden backbone of every major commercial building — but most only get attention after something goes wrong. The culprit is often in the pump selection: undersized units, wrong impeller technology, or missing controls quietly adding up to blockages, overflows, and premature failures.
 

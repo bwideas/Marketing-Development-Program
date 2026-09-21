@@ -4,7 +4,7 @@
 
 ## Event details
 - **Date:** 20.10.2026
-- **Time:** 13:00–15:00 (KSA Time)
+- **Time:** 13:00–14:20 (KSA Time)
 - **Duration:** 1 hour 20 minutes
 - **Platform:** Microsoft Teams
 - **CPD:** 2 certified hours
