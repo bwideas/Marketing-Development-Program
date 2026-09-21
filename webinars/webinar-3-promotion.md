@@ -21,7 +21,7 @@ Passcode: [to be added]
 I'm also sharing this with the team for their review. If there are any updates or suggested changes, please feel free to mention them.
 
 **Webinar title:**
-Reliable Wastewater Systems: Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation
+Reliable Wastewater Systems: Smart Drainage and Sewage Pumps for Safe and Efficient Commercial Building Operation
 
 **What you will learn:**
 This webinar is CPD-certified through Grundfos Holding A/S.
@@ -87,10 +87,11 @@ Bandar
 **Topic:** Wastewater
 **Recommended header (label):** CPD Webinar
 **Recommended title:** Reliable Wastewater Systems
-**Recommended subtitle:** Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation.
+**Recommended subtitle:** Smart Drainage and Sewage Pumps for Safe and Efficient Commercial Building Operation.
 
 - **Date:** 20.10.2026 (Tuesday)
 - **Time:** 13:00–15:00 (KSA Time)
+- **Duration:** 1 hour 20 minutes
 - **Platform:** Microsoft Teams
 - **CPD:** 2 certified hours (The CPD Certification Service, via Grundfos Holding A/S)
 - **Speaker:** Marwan Rabie — [Job Title, Grundfos — to confirm]
@@ -101,7 +102,7 @@ Bandar
 ## 0. Registration Content — Finalized Format (matches Webinar 1 registration email)
 
 **Webinar title:**
-Reliable Wastewater Systems: Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation
+Reliable Wastewater Systems: Smart Drainage and Sewage Pumps for Safe and Efficient Commercial Building Operation
 
 **What you will learn:**
 This webinar is CPD-certified through Grundfos Holding A/S.
@@ -182,7 +183,7 @@ Dark commercial-building photography background (low-angle skyscraper shot, dusk
 Text on visual:
 - Label (small, white): **CPD Webinar**
 - Title (large, sand/gold): **Reliable Wastewater Systems**
-- Subtitle (white): **Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation.**
+- Subtitle (white): **Smart Drainage and Sewage Pumps for Safe and Efficient Commercial Building Operation.**
 - 📅 icon + **20.10.2026**
 - 🕐 icon + **13:00 - 15:00 (KSA Time)**
 - Logo: **GRUNDFOS** (white, bottom-right)

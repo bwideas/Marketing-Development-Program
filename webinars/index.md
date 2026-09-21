@@ -24,10 +24,11 @@
 ---
 
 ## Webinar 3 — Reliable Wastewater Systems
-- **Title:** Reliable Wastewater Systems: Smart Drainage and Sewage Pump for Safe and Efficient Commercial Building Operation
+- **Title:** Reliable Wastewater Systems: Smart Drainage and Sewage Pumps for Safe and Efficient Commercial Building Operation
 - **Theme:** Drainage vs. sewage pump selection, anti-clog design, and system protection strategies to prevent flooding and costly equipment damage in commercial buildings
 - **Date:** 20 October 2026 | 13:00–15:00 KSA Time
 - **Platform:** Microsoft Teams | 2 CPD Hours
+- **Duration:** 1 hour 20 minutes
 - **Speakers:** Marwan Rabie & Ezz Mamdouh — job titles TBC
 - **Audience:** Mechanical Engineers, Plumbing/Public Health Engineers, MEP Engineers, Consultants, Contractors, Facility Managers
 - **Status:** 🔄 In Progress — registration URL & speaker titles pending
