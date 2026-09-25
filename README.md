@@ -199,11 +199,11 @@ IMAP will operate using a measurable performance framework connecting marketing 
 
 The following priorities will improve marketing effectiveness and create a stronger foundation for automation.
 
-## Standardize campaign tracking with a mandatory UTM taxonomy and single KPI dashboard (Highest impact, lowest effort)
-## Launch lead-source attribution (first-touch + last-touch) in CRM
-## Define MQL/SQL scoring rubric to improve lead quality
-## Implement conversion-focused landing page A/B testing
-## Set SLA-based lead routing and follow-up automation
+### Standardize campaign tracking with a mandatory UTM taxonomy and single KPI dashboard (Highest impact, lowest effort)
+### Launch lead-source attribution (first-touch + last-touch) in CRM
+### Define MQL/SQL scoring rubric to improve lead quality
+### Implement conversion-focused landing page A/B testing
+### Set SLA-based lead routing and follow-up automation
 ## Build account-based marketing (ABM) lists for top commercial prospects
 ## Repurpose high-performing content into Arabic + English multi-format assets
 ## Create event-to-pipeline playbooks with standardized post-event nurture
@@ -271,7 +271,7 @@ To make the highest-impact, lowest-effort item enforceable in day-to-day executi
 
 # 8.0 Timeline & Phases
 
-## Phase 1 — Foundation** | Months 1–3
+## Phase 1 — **Foundation** | Months 1–3
 
 **Objective:** Establish the strategic and operational foundation.
 
