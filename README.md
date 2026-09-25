@@ -216,20 +216,20 @@ The following priorities will improve marketing effectiveness and create a stron
 
 # 7.0 Campaign Measurement Framework
 
-## Implemented Quick Win: UTM Taxonomy + Unified KPI Dashboard
+Implemented Quick Win: UTM Taxonomy + Unified KPI Dashboard
 
 To improve campaign performance visibility immediately, all digital campaigns should use a shared UTM format and feed a single weekly dashboard.
 
-### 7.1 UTM convention (required):
+## 7.1 UTM convention (required):
 - `utm_source` (social-network, search, email, partner)
 - `utm_medium` (paid_social, cpc, webinar, newsletter)
 - `utm_campaign` (phase_objective_audience, e.g., `p2_leadgen_facilitymanagers`)
 - `utm_content` (creative or asset identifier)
 
-### 7.2 Campaign URL template (copy/paste):
+## 7.2 Campaign URL template (copy/paste):
 `https://www.example.com/{landing-page}?utm_source={source}&utm_medium={medium}&utm_campaign={phase_objective_audience}&utm_content={asset_id}`
 
-### 7.3 Weekly dashboard minimum fields:
+## 7.3 Weekly dashboard minimum fields:
 - Spend
 - Clicks
 - CTR
@@ -241,7 +241,7 @@ To improve campaign performance visibility immediately, all digital campaigns sh
 - Influenced Pipeline
 - Won Revenue
 
-### 7.4 Definition of done (required before launch):
+## 7.4 Definition of done (required before launch):
 
 Before a campaign goes live:
 1. Tracking structure is completed.
@@ -252,7 +252,7 @@ Before a campaign goes live:
 6. Dashboard tracking is confirmed.
 7. Follow-up process is agreed.
 
-### 7.5 Operating cadence:
+## 7.5 Operating cadence:
 
 Review weekly with marketing + sales and reallocate budget to top-performing channels using CPL and cost-per-MQL as the primary short-term decision metrics.
 
@@ -285,7 +285,7 @@ To make the highest-impact, lowest-effort item enforceable in day-to-day executi
 * Marketing automation opportunities
 * Digital channel optimization
 
-## Phase 2 — Activation** | Months 4–6
+## Phase 2 — **Activation** | Months 4–6
 
 **Objective:** Launch and activate priority marketing initiatives.
 
@@ -299,7 +299,7 @@ To make the highest-impact, lowest-effort item enforceable in day-to-day executi
 * Lead nurturing workflows
 * Content rollout
 
-## Phase 3 — Optimization & Growth** | Months 7–12
+## Phase 3 — **Optimization & Growth** | Months 7–12
 
 **Objective:** Scale what works and improve commercial impact.
 
