@@ -199,18 +199,18 @@ IMAP will operate using a measurable performance framework connecting marketing 
 
 The following priorities will improve marketing effectiveness and create a stronger foundation for automation.
 
-### Standardize campaign tracking with a mandatory UTM taxonomy and single KPI dashboard (Highest impact, lowest effort)
-### Launch lead-source attribution (first-touch + last-touch) in CRM
-### Define MQL/SQL scoring rubric to improve lead quality
-### Implement conversion-focused landing page A/B testing
-### Set SLA-based lead routing and follow-up automation
-## Build account-based marketing (ABM) lists for top commercial prospects
-## Repurpose high-performing content into Arabic + English multi-format assets
-## Create event-to-pipeline playbooks with standardized post-event nurture
-## Run quarterly partner performance reviews with shared scorecards
-## Add budget reallocation rules based on cost-per-qualified-lead thresholds
-## Document every campaign, launch gate, KPI update, and optimization decision in one shared strategy
-## Track all experiments, content, partner motions, and follow-up actions so the full body of work is visible
+* Standardize campaign tracking with a mandatory UTM taxonomy and single KPI dashboard (Highest impact, lowest effort)
+* Launch lead-source attribution (first-touch + last-touch) in CRM
+* Define MQL/SQL scoring rubric to improve lead quality
+* Implement conversion-focused landing page A/B testing
+* Set SLA-based lead routing and follow-up automation
+* Build account-based marketing (ABM) lists for top commercial prospects
+* Repurpose high-performing content into Arabic + English multi-format assets
+* Create event-to-pipeline playbooks with standardized post-event nurture
+* Run quarterly partner performance reviews with shared scorecards
+* Add budget reallocation rules based on cost-per-qualified-lead thresholds
+* Document every campaign, launch gate, KPI update, and optimization decision in one shared strategy
+* Track all experiments, content, partner motions, and follow-up actions so the full body of work is visible
 
 ---
 
